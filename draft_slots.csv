@@ -1,0 +1,157 @@
+﻿overall_slot,round,pick_in_round,original_team,current_team,traded_flag,keeper_forfeit_flag,keeper_player,confidence
+1,1,1,Shiven,Shiven,false,false,,confirmed
+2,1,2,Koo,Koo,false,false,,confirmed
+3,1,3,Raul,Raul,false,false,,confirmed
+4,1,4,Ashley,Ashley,false,false,,confirmed
+5,1,5,Addison,Addison,false,false,,confirmed
+6,1,6,Oscar,Oscar,false,false,,confirmed
+7,1,7,Austin,Austin,false,false,,confirmed
+8,1,8,Nick,Nick,false,false,,confirmed
+9,1,9,Jipples,Jipples,false,false,,confirmed
+10,1,10,Samet,Samet,false,false,,confirmed
+11,1,11,San,San,false,false,,confirmed
+12,1,12,Adam,Adam,false,false,,confirmed
+13,2,1,Adam,Adam,false,true,Cooper Flagg,confirmed
+14,2,2,San,San,false,true,Jamal Murray,confirmed
+15,2,3,Samet,Samet,false,false,,confirmed
+16,2,4,Jipples,Jipples,false,false,,confirmed
+17,2,5,Nick,Nick,false,false,,confirmed
+18,2,6,Austin,Austin,false,false,,confirmed
+19,2,7,Oscar,Oscar,false,true,Donovan Mitchell,confirmed
+20,2,8,Addison,Addison,false,false,,confirmed
+21,2,9,Ashley,Ashley,false,false,,confirmed
+22,2,10,Raul,Raul,false,false,,confirmed
+23,2,11,Koo,Koo,false,false,,confirmed
+24,2,12,Shiven,Shiven,false,false,,confirmed
+25,3,1,Shiven,Shiven,false,true,Kawhi Leonard,confirmed
+26,3,2,Koo,Koo,false,false,,confirmed
+27,3,3,Raul,Raul,false,false,,confirmed
+28,3,4,Ashley,Ashley,false,true,Anthony Edwards,confirmed
+29,3,5,Addison,Addison,false,true,Derrick White,confirmed
+30,3,6,Oscar,Oscar,false,true,Shai Gilgeous-Alexander,confirmed
+31,3,7,Austin,Austin,false,false,,confirmed
+32,3,8,Nick,Nick,false,true,Darius Garland,confirmed
+33,3,9,Jipples,Jipples,false,true,Jayson Tatum,confirmed
+34,3,10,Samet,Samet,false,false,,confirmed
+35,3,11,San,San,false,false,,confirmed
+36,3,12,Adam,Adam,false,false,,confirmed
+37,4,1,Adam,Adam,false,false,,confirmed
+38,4,2,San,San,false,false,,confirmed
+39,4,3,Samet,Samet,false,false,,confirmed
+40,4,4,Jipples,Jipples,false,false,,confirmed
+41,4,5,Nick,Nick,false,false,,confirmed
+42,4,6,Austin,Austin,false,false,,confirmed
+43,4,7,Oscar,Oscar,false,false,,confirmed
+44,4,8,Addison,Addison,false,false,,confirmed
+45,4,9,Ashley,Ashley,false,false,,confirmed
+46,4,10,Raul,Raul,false,true,OG Anunoby,confirmed
+47,4,11,Koo,Koo,false,true,Onyeka Okongwu,confirmed
+48,4,12,Shiven,Shiven,false,true,Trey Murphy III,confirmed
+49,5,1,Shiven,Shiven,false,false,,confirmed
+50,5,2,Koo,Koo,false,true,Kyrie Irving,confirmed
+51,5,3,Raul,Raul,false,false,,confirmed
+52,5,4,Ashley,Ashley,false,false,,confirmed
+53,5,5,Addison,Addison,false,false,,confirmed
+54,5,6,Oscar,Oscar,false,false,,confirmed
+55,5,7,Austin,Austin,false,false,,confirmed
+56,5,8,Nick,Nick,false,false,,confirmed
+57,5,9,Jipples,Jipples,false,false,,confirmed
+58,5,10,Samet,Samet,false,false,,confirmed
+59,5,11,San,San,false,false,,confirmed
+60,5,12,Adam,Adam,false,false,,confirmed
+61,6,1,Adam,Adam,false,true,Dejounte Murray,confirmed
+62,6,2,San,San,false,true,Jalen Brunson,confirmed
+63,6,3,Samet,Samet,false,false,,confirmed
+64,6,4,Jipples,Jipples,false,false,,confirmed
+65,6,5,Nick,Nick,false,false,,confirmed
+66,6,6,Austin,Austin,false,false,,confirmed
+67,6,7,Oscar,Oscar,false,false,,confirmed
+68,6,8,Addison,Addison,false,true,Austin Reaves,confirmed
+69,6,9,Ashley,Ashley,false,false,,confirmed
+70,6,10,Raul,Raul,false,false,,confirmed
+71,6,11,Koo,Koo,false,false,,confirmed
+72,6,12,Shiven,Shiven,false,false,,confirmed
+73,7,1,Shiven,Shiven,false,true,Tyrese Haliburton,confirmed
+74,7,2,Koo,Koo,false,true,Naz Reid,confirmed
+75,7,3,Raul,Raul,false,false,,confirmed
+76,7,4,Ashley,Ashley,false,false,,confirmed
+77,7,5,Addison,Addison,false,false,,confirmed
+78,7,6,Oscar,Oscar,false,false,,confirmed
+79,7,7,Austin,Austin,false,false,,confirmed
+80,7,8,Nick,Nick,false,false,,confirmed
+81,7,9,Jipples,Jipples,false,true,Amen Thompson,confirmed
+82,7,10,Samet,Samet,false,false,,confirmed
+83,7,11,San,San,false,false,,confirmed
+84,7,12,Adam,Adam,false,true,Jalen Duren,confirmed
+85,8,1,Adam,Adam,false,false,,confirmed
+86,8,2,San,San,false,false,,confirmed
+87,8,3,Samet,Samet,false,true,Jalen Johnson,confirmed
+88,8,4,Jipples,Jipples,false,false,,confirmed
+89,8,5,Nick,Nick,false,false,,confirmed
+90,8,6,Austin,Austin,false,false,,confirmed
+91,8,7,Oscar,Oscar,false,false,,confirmed
+92,8,8,Addison,Addison,false,false,,confirmed
+93,8,9,Ashley,Ashley,false,false,,confirmed
+94,8,10,Raul,Raul,false,true,Deni Avdija,confirmed
+95,8,11,Koo,Koo,false,false,,confirmed
+96,8,12,Shiven,Shiven,false,false,,confirmed
+97,9,1,Shiven,Shiven,false,false,,confirmed
+98,9,2,Koo,Koo,false,false,,confirmed
+99,9,3,Raul,Raul,false,false,,confirmed
+100,9,4,Ashley,Ashley,false,false,,confirmed
+101,9,5,Addison,Addison,false,false,,confirmed
+102,9,6,Oscar,Oscar,false,false,,confirmed
+103,9,7,Austin,Austin,false,false,,corrected_from_yahoo_2026-10-19
+104,9,8,Nick,Nick,false,false,,confirmed
+105,9,9,Jipples,Jipples,false,false,,confirmed
+106,9,10,Samet,Raul,true,false,,confirmed
+107,9,11,San,San,false,false,,confirmed
+108,9,12,Adam,Adam,false,false,,confirmed
+109,10,1,Adam,Adam,false,false,,confirmed
+110,10,2,San,San,false,false,,confirmed
+111,10,3,Samet,Samet,false,true,VJ Edgecombe,confirmed
+112,10,4,Jipples,Jipples,false,true,Stephon Castle,confirmed
+113,10,5,Nick,Samet,true,true,Dylan Harper,confirmed
+114,10,6,Austin,Austin,false,false,,confirmed
+115,10,7,Oscar,Oscar,false,false,,confirmed
+116,10,8,Addison,Addison,false,true,Alex Sarr,confirmed
+117,10,9,Ashley,Ashley,false,true,Nickeil Alexander-Walker,confirmed
+118,10,10,Raul,Raul,false,false,,confirmed
+119,10,11,Koo,Koo,false,false,,confirmed
+120,10,12,Shiven,Shiven,false,false,,confirmed
+121,11,1,Shiven,Shiven,false,false,,confirmed
+122,11,2,Koo,Koo,false,false,,confirmed
+123,11,3,Raul,Nick,true,true,Ace Bailey,corrected_from_yahoo_2026-10-19
+124,11,4,Ashley,Ashley,false,true,Kon Knueppel,confirmed
+125,11,5,Addison,Addison,false,false,,confirmed
+126,11,6,Oscar,Oscar,false,false,,confirmed
+127,11,7,Austin,Austin,false,true,Kevin Porter Jr.,confirmed
+128,11,8,Nick,Nick,false,true,Jabari Smith Jr.,corrected_from_yahoo_2026-10-19
+129,11,9,Jipples,Jipples,false,false,,confirmed
+130,11,10,Samet,Samet,false,false,,confirmed
+131,11,11,San,San,false,false,,confirmed
+132,11,12,Adam,Adam,false,false,,confirmed
+133,12,1,Adam,Adam,false,false,,confirmed
+134,12,2,San,San,false,true,Keyonte George,confirmed
+135,12,3,Samet,Samet,false,false,,confirmed
+136,12,4,Jipples,Jipples,false,false,,confirmed
+137,12,5,Nick,Nick,false,false,,confirmed
+138,12,6,Austin,Austin,false,true,Fred VanVleet,confirmed
+139,12,7,Oscar,Oscar,false,true,Kyshawn George,confirmed
+140,12,8,Addison,Addison,false,false,,confirmed
+141,12,9,Ashley,Ashley,false,false,,confirmed
+142,12,10,Raul,Raul,false,true,Jaden McDaniels,confirmed
+143,12,11,Koo,Koo,false,false,,confirmed
+144,12,12,Shiven,Shiven,false,false,,confirmed
+145,13,1,Shiven,Shiven,false,false,,confirmed
+146,13,2,Koo,Koo,false,false,,confirmed
+147,13,3,Raul,Raul,false,false,,confirmed
+148,13,4,Ashley,Ashley,false,false,,confirmed
+149,13,5,Addison,Addison,false,false,,confirmed
+150,13,6,Oscar,Oscar,false,false,,confirmed
+151,13,7,Austin,Austin,false,false,,confirmed
+152,13,8,Nick,Nick,false,false,,confirmed
+153,13,9,Jipples,Jipples,false,false,,confirmed
+154,13,10,Samet,Samet,false,false,,confirmed
+155,13,11,San,San,false,false,,confirmed
+156,13,12,Adam,Adam,false,false,,confirmed

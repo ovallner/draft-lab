@@ -1,0 +1,41 @@
+{
+  "teams": 12,
+  "weeks": 17,
+  "team_week_rows": 204,
+  "unique_weekly_matchups": 102,
+  "reciprocal_errors": 0,
+  "self_matchups": 0,
+  "weekly_matchups_counts": {
+    "1": 6,
+    "2": 6,
+    "3": 6,
+    "4": 6,
+    "5": 6,
+    "6": 6,
+    "7": 6,
+    "8": 6,
+    "9": 6,
+    "10": 6,
+    "11": 6,
+    "12": 6,
+    "13": 6,
+    "14": 6,
+    "15": 6,
+    "16": 6,
+    "17": 6
+  },
+  "calendar_source": "https://basketball.fantasysports.yahoo.com/nba/gamedates",
+  "calendar_weeks": 23,
+  "nonstandard_weeks": [
+    1,
+    7,
+    17
+  ],
+  "regular_season_week_date_coverage": 17,
+  "league_playoffs": {
+    "start_week": 18,
+    "end_week": 20,
+    "start_date": "2027-03-01",
+    "end_date": "2027-03-21"
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "season": "2026-27",
+  "league": "It Begins",
+  "yahoo_league_id": "8120",
+  "platform": "Yahoo",
+  "teams": 12,
+  "scoring": "H2H 9 categories",
+  "categories": [
+    "FG%",
+    "FT%",
+    "3PM",
+    "PTS",
+    "REB",
+    "AST",
+    "STL",
+    "BLK",
+    "TO"
+  ],
+  "category_weights_default": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "matchup_punt_candidates": [
+    "none",
+    "FG%",
+    "FT%",
+    "TO",
+    "REB",
+    "BLK",
+    "AST",
+    "3PM",
+    "PTS",
+    "STL"
+  ],
+  "team_name": "Oscar",
+  "draft_order_position": 6,
+  "rounds": 13,
+  "draft_type": "snake_live",
+  "keeper_limit": 3,
+  "keeper_max_years": 4,
+  "my_keeper_forfeited_rounds": [
+    2,
+    3,
+    12
+  ],
+  "draft_local_date": "2026-10-18",
+  "draft_time": "21:00",
+  "draft_timezone": "America/New_York",
+  "playoff_weeks": [
+    {
+      "round": "quarterfinal",
+      "start": "2027-03-01",
+      "end": "2027-03-07"
+    },
+    {
+      "round": "semifinal",
+      "start": "2027-03-08",
+      "end": "2027-03-14"
+    },
+    {
+      "round": "final",
+      "start": "2027-03-15",
+      "end": "2027-03-21"
+    }
+  ],
+  "playoff_teams": 8,
+  "acquisitions_per_week": 4,
+  "daily_lineups": true,
+  "roster_positions": [
+    "PG",
+    "SG",
+    "G",
+    "SF",
+    "PF",
+    "F",
+    "C",
+    "UTIL",
+    "UTIL",
+    "UTIL",
+    "BN",
+    "BN",
+    "BN",
+    "IL",
+    "IL",
+    "IL"
+  ],
+  "draft_pick_trades_allowed": false,
+  "draft_clock_seconds": 45,
+  "optimization_objective": "maximize probability of winning playoff quarterfinal, semifinal, final conditional on likely qualifying",
+  "qualifying_constraint": "user confident of making playoffs; enforce configurable minimum expected regular season win probability",
+  "scheduled_game_counts_authoritative": false,
+  "reference_urls": [
+    "https://hashtagbasketball.com/nba-fantasy-schedule",
+    "https://hashtagbasketball.com/fantasy-basketball-playoff-schedule"
+  ]
+}

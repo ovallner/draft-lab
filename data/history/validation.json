@@ -1,0 +1,2679 @@
+{
+  "method": "Forward-by-round holdouts; fixed shrinkage; round-block bootstrap",
+  "n_test": 69,
+  "folds": [
+    {
+      "train_through_round": 4,
+      "test_through_round": 7,
+      "n_train": 37,
+      "n_test": 23,
+      "baseline_log_loss": 4.086053890825163,
+      "persona_log_loss": 4.062325513121616
+    },
+    {
+      "train_through_round": 7,
+      "test_through_round": 10,
+      "n_train": 60,
+      "n_test": 17,
+      "baseline_log_loss": 4.301385042436684,
+      "persona_log_loss": 4.60470822769019
+    },
+    {
+      "train_through_round": 10,
+      "test_through_round": 13,
+      "n_train": 77,
+      "n_test": 29,
+      "baseline_log_loss": 4.925320712705917,
+      "persona_log_loss": 5.044928109755041
+    }
+  ],
+  "metrics": {
+    "baseline": {
+      "log_loss": 4.491841824331507,
+      "mean_choice_rank": 23.666666666666668,
+      "top5_accuracy": 0.2028985507246377,
+      "choice_brier": 1.0880433662088826
+    },
+    "persona": {
+      "log_loss": 4.608933939933719,
+      "mean_choice_rank": 23.884057971014492,
+      "top5_accuracy": 0.2028985507246377,
+      "choice_brier": 1.1065128469693613
+    }
+  },
+  "persona_minus_baseline_log_loss": 0.11709211560221176,
+  "round_bootstrap_95_interval": [
+    0.018607651049906436,
+    0.23833724235867867
+  ],
+  "persona_enabled_by_default": false,
+  "decision": "baseline",
+  "predictions": [
+    {
+      "slot": 49,
+      "round": 5,
+      "manager": "Addison",
+      "fold": 4,
+      "baseline_log_loss": 3.6484264313264037,
+      "baseline_rank": 6,
+      "baseline_choice_brier": 1.1876055821775413,
+      "persona_log_loss": 3.7383302164520793,
+      "persona_rank": 6,
+      "persona_choice_brier": 1.2276759942006579
+    },
+    {
+      "slot": 50,
+      "round": 5,
+      "manager": "San",
+      "fold": 4,
+      "baseline_log_loss": 3.6482453817620684,
+      "baseline_rank": 6,
+      "baseline_choice_brier": 1.1876830050478366,
+      "persona_log_loss": 3.616616266393631,
+      "persona_rank": 6,
+      "persona_choice_brier": 1.187279322809008
+    },
+    {
+      "slot": 52,
+      "round": 5,
+      "manager": "Samet",
+      "fold": 4,
+      "baseline_log_loss": 4.46237724674691,
+      "baseline_rank": 10,
+      "baseline_choice_brier": 1.2167739186683548,
+      "persona_log_loss": 4.508436406511247,
+      "persona_rank": 10,
+      "persona_choice_brier": 1.2415508755866524
+    },
+    {
+      "slot": 55,
+      "round": 5,
+      "manager": "Nick",
+      "fold": 4,
+      "baseline_log_loss": 3.0015247287150193,
+      "baseline_rank": 4,
+      "baseline_choice_brier": 1.1405087156705682,
+      "persona_log_loss": 3.0251654220984547,
+      "persona_rank": 4,
+      "persona_choice_brier": 1.1231796324946521
+    },
+    {
+      "slot": 56,
+      "round": 5,
+      "manager": "Ashley",
+      "fold": 4,
+      "baseline_log_loss": 1.8963880835827773,
+      "baseline_rank": 2,
+      "baseline_choice_brier": 0.9397989799990779,
+      "persona_log_loss": 1.8861549532741235,
+      "persona_rank": 2,
+      "persona_choice_brier": 0.9269030671941239
+    },
+    {
+      "slot": 58,
+      "round": 5,
+      "manager": "Austin",
+      "fold": 4,
+      "baseline_log_loss": 3.893070579016488,
+      "baseline_rank": 7,
+      "baseline_choice_brier": 1.1994277539401919,
+      "persona_log_loss": 3.9395745642322972,
+      "persona_rank": 7,
+      "persona_choice_brier": 1.2218452950284402
+    },
+    {
+      "slot": 59,
+      "round": 5,
+      "manager": "Jipples",
+      "fold": 4,
+      "baseline_log_loss": 1.8958459975008324,
+      "baseline_rank": 2,
+      "baseline_choice_brier": 0.9398970968929596,
+      "persona_log_loss": 1.8855966976455028,
+      "persona_rank": 2,
+      "persona_choice_brier": 0.8884579869432161
+    },
+    {
+      "slot": 60,
+      "round": 5,
+      "manager": "Koo",
+      "fold": 4,
+      "baseline_log_loss": 5.644025447727681,
+      "baseline_rank": 21,
+      "baseline_choice_brier": 1.2332878338203888,
+      "persona_log_loss": 5.576140640830201,
+      "persona_rank": 21,
+      "persona_choice_brier": 1.2183243045424756
+    },
+    {
+      "slot": 62,
+      "round": 6,
+      "manager": "Jipples",
+      "fold": 4,
+      "baseline_log_loss": 6.1021627076316385,
+      "baseline_rank": 28,
+      "baseline_choice_brier": 1.2361086451697445,
+      "persona_log_loss": 5.853462601862976,
+      "persona_rank": 28,
+      "persona_choice_brier": 1.1868411390933835
+    },
+    {
+      "slot": 65,
+      "round": 6,
+      "manager": "Ashley",
+      "fold": 4,
+      "baseline_log_loss": 4.996787778965087,
+      "baseline_rank": 14,
+      "baseline_choice_brier": 1.2272677847270814,
+      "persona_log_loss": 4.896761680007435,
+      "persona_rank": 14,
+      "persona_choice_brier": 1.2083019449318193
+    },
+    {
+      "slot": 66,
+      "round": 6,
+      "manager": "Nick",
+      "fold": 4,
+      "baseline_log_loss": 2.999529833594807,
+      "baseline_rank": 4,
+      "baseline_choice_brier": 1.1412686005321693,
+      "persona_log_loss": 2.9249986498100853,
+      "persona_rank": 4,
+      "persona_choice_brier": 1.0983133574987838
+    },
+    {
+      "slot": 67,
+      "round": 6,
+      "manager": "Raul",
+      "fold": 4,
+      "baseline_log_loss": 3.3550312673136164,
+      "baseline_rank": 5,
+      "baseline_choice_brier": 1.171176387705027,
+      "persona_log_loss": 3.3367044101289345,
+      "persona_rank": 5,
+      "persona_choice_brier": 1.149112346010055
+    },
+    {
+      "slot": 68,
+      "round": 6,
+      "manager": "Adam",
+      "fold": 4,
+      "baseline_log_loss": 4.104053885989609,
+      "baseline_rank": 8,
+      "baseline_choice_brier": 1.20808586957337,
+      "persona_log_loss": 4.025639326889564,
+      "persona_rank": 8,
+      "persona_choice_brier": 1.1873341429235105
+    },
+    {
+      "slot": 69,
+      "round": 6,
+      "manager": "Samet",
+      "fold": 4,
+      "baseline_log_loss": 2.5402842592443404,
+      "baseline_rank": 3,
+      "baseline_choice_brier": 1.0835140710517108,
+      "persona_log_loss": 2.4915035274205253,
+      "persona_rank": 3,
+      "persona_choice_brier": 1.0816711445820042
+    },
+    {
+      "slot": 70,
+      "round": 6,
+      "manager": "Shiven",
+      "fold": 4,
+      "baseline_log_loss": 3.8907536869474937,
+      "baseline_rank": 7,
+      "baseline_choice_brier": 1.2004477257948898,
+      "persona_log_loss": 3.9274489536849644,
+      "persona_rank": 7,
+      "persona_choice_brier": 1.2264697111455376
+    },
+    {
+      "slot": 72,
+      "round": 6,
+      "manager": "Addison",
+      "fold": 4,
+      "baseline_log_loss": 1.8934888603803135,
+      "baseline_rank": 2,
+      "baseline_choice_brier": 0.9403224214489325,
+      "persona_log_loss": 1.8581185673959955,
+      "persona_rank": 2,
+      "persona_choice_brier": 0.9556290466993217
+    },
+    {
+      "slot": 75,
+      "round": 7,
+      "manager": "Shiven",
+      "fold": 4,
+      "baseline_log_loss": 7.392936665738225,
+      "baseline_rank": 63,
+      "baseline_choice_brier": 1.2402891332264607,
+      "persona_log_loss": 7.622015112067894,
+      "persona_rank": 63,
+      "persona_choice_brier": 1.2646954438666427
+    },
+    {
+      "slot": 76,
+      "round": 7,
+      "manager": "Samet",
+      "fold": 4,
+      "baseline_log_loss": 2.9979682109521466,
+      "baseline_rank": 4,
+      "baseline_choice_brier": 1.1418666726784237,
+      "persona_log_loss": 2.9476029532333197,
+      "persona_rank": 4,
+      "persona_choice_brier": 1.14211968020576
+    },
+    {
+      "slot": 77,
+      "round": 7,
+      "manager": "Adam",
+      "fold": 4,
+      "baseline_log_loss": 7.7732777965801345,
+      "baseline_rank": 80,
+      "baseline_choice_brier": 1.2409103909891461,
+      "persona_log_loss": 7.753159066294723,
+      "persona_rank": 81,
+      "persona_choice_brier": 1.2233800245838318
+    },
+    {
+      "slot": 78,
+      "round": 7,
+      "manager": "Raul",
+      "fold": 4,
+      "baseline_log_loss": 6.312334961077505,
+      "baseline_rank": 33,
+      "baseline_choice_brier": 1.2382560952992405,
+      "persona_log_loss": 6.190825828211784,
+      "persona_rank": 33,
+      "persona_choice_brier": 1.2166890265831842
+    },
+    {
+      "slot": 80,
+      "round": 7,
+      "manager": "Ashley",
+      "fold": 4,
+      "baseline_log_loss": 4.289848342372036,
+      "baseline_rank": 9,
+      "baseline_choice_brier": 1.2146323676718829,
+      "persona_log_loss": 4.249180358094768,
+      "persona_rank": 9,
+      "persona_choice_brier": 1.1962785687457493
+    },
+    {
+      "slot": 82,
+      "round": 7,
+      "manager": "Austin",
+      "fold": 4,
+      "baseline_log_loss": 3.8887459379749636,
+      "baseline_rank": 7,
+      "baseline_choice_brier": 1.20133655292556,
+      "persona_log_loss": 3.96205919498509,
+      "persona_rank": 7,
+      "persona_choice_brier": 1.2255874556013198
+    },
+    {
+      "slot": 83,
+      "round": 7,
+      "manager": "Jipples",
+      "fold": 4,
+      "baseline_log_loss": 3.3521313978386553,
+      "baseline_rank": 5,
+      "baseline_choice_brier": 1.1723756997034824,
+      "persona_log_loss": 3.2179914042715705,
+      "persona_rank": 5,
+      "persona_choice_brier": 1.1152047241647691
+    },
+    {
+      "slot": 85,
+      "round": 8,
+      "manager": "Koo",
+      "fold": 7,
+      "baseline_log_loss": 3.603036202326873,
+      "baseline_rank": 7,
+      "baseline_choice_brier": 1.035466798378131,
+      "persona_log_loss": 3.477659293160582,
+      "persona_rank": 7,
+      "persona_choice_brier": 1.0540844124629296
+    },
+    {
+      "slot": 87,
+      "round": 8,
+      "manager": "Austin",
+      "fold": 7,
+      "baseline_log_loss": 3.7538409039840386,
+      "baseline_rank": 8,
+      "baseline_choice_brier": 1.043313080944368,
+      "persona_log_loss": 4.0045256626008445,
+      "persona_rank": 9,
+      "persona_choice_brier": 1.0992210939032103
+    },
+    {
+      "slot": 89,
+      "round": 8,
+      "manager": "Ashley",
+      "fold": 7,
+      "baseline_log_loss": 2.634690352384187,
+      "baseline_rank": 3,
+      "baseline_choice_brier": 0.947131359745793,
+      "persona_log_loss": 2.641113664635468,
+      "persona_rank": 3,
+      "persona_choice_brier": 0.9692464843215113
+    },
+    {
+      "slot": 90,
+      "round": 8,
+      "manager": "Nick",
+      "fold": 7,
+      "baseline_log_loss": 1.3826673586852616,
+      "baseline_rank": 1,
+      "baseline_choice_brier": 0.5890223762062189,
+      "persona_log_loss": 1.3034202711673544,
+      "persona_rank": 1,
+      "persona_choice_brier": 0.5778781484856297
+    },
+    {
+      "slot": 91,
+      "round": 8,
+      "manager": "Raul",
+      "fold": 7,
+      "baseline_log_loss": 3.421360006153142,
+      "baseline_rank": 6,
+      "baseline_choice_brier": 1.0257301768271239,
+      "persona_log_loss": 3.722679952558111,
+      "persona_rank": 6,
+      "persona_choice_brier": 1.1112471529897634
+    },
+    {
+      "slot": 93,
+      "round": 8,
+      "manager": "Addison",
+      "fold": 7,
+      "baseline_log_loss": 2.958488528891259,
+      "baseline_rank": 4,
+      "baseline_choice_brier": 0.9874996644261234,
+      "persona_log_loss": 3.0251498366699385,
+      "persona_rank": 4,
+      "persona_choice_brier": 1.113542215920033
+    },
+    {
+      "slot": 95,
+      "round": 8,
+      "manager": "San",
+      "fold": 7,
+      "baseline_log_loss": 5.1726852812466,
+      "baseline_rank": 28,
+      "baseline_choice_brier": 1.0801844943891046,
+      "persona_log_loss": 5.92608710791496,
+      "persona_rank": 31,
+      "persona_choice_brier": 1.1711232195297439
+    },
+    {
+      "slot": 96,
+      "round": 8,
+      "manager": "San",
+      "fold": 7,
+      "baseline_log_loss": 5.897816432978177,
+      "baseline_rank": 53,
+      "baseline_choice_brier": 1.0862767617363445,
+      "persona_log_loss": 6.70435095325776,
+      "persona_rank": 55,
+      "persona_choice_brier": 1.1740061973101736
+    },
+    {
+      "slot": 99,
+      "round": 9,
+      "manager": "Shiven",
+      "fold": 7,
+      "baseline_log_loss": 6.306743399400403,
+      "baseline_rank": 76,
+      "baseline_choice_brier": 1.0883822203066202,
+      "persona_log_loss": 7.128216746584133,
+      "persona_rank": 73,
+      "persona_choice_brier": 1.1853267291968224
+    },
+    {
+      "slot": 101,
+      "round": 9,
+      "manager": "Adam",
+      "fold": 7,
+      "baseline_log_loss": 5.758097180613091,
+      "baseline_rank": 47,
+      "baseline_choice_brier": 1.0859891178888594,
+      "persona_log_loss": 6.330512733102411,
+      "persona_rank": 44,
+      "persona_choice_brier": 1.1589814417183477
+    },
+    {
+      "slot": 104,
+      "round": 9,
+      "manager": "Ashley",
+      "fold": 7,
+      "baseline_log_loss": 4.942901499893935,
+      "baseline_rank": 23,
+      "baseline_choice_brier": 1.0783205282069834,
+      "persona_log_loss": 5.1563331159386765,
+      "persona_rank": 21,
+      "persona_choice_brier": 1.1460625357496679
+    },
+    {
+      "slot": 106,
+      "round": 9,
+      "manager": "Austin",
+      "fold": 7,
+      "baseline_log_loss": 6.12427901563812,
+      "baseline_rank": 66,
+      "baseline_choice_brier": 1.0884713560448054,
+      "persona_log_loss": 7.316488751421203,
+      "persona_rank": 79,
+      "persona_choice_brier": 1.1977693619362377
+    },
+    {
+      "slot": 107,
+      "round": 9,
+      "manager": "Ashley",
+      "fold": 7,
+      "baseline_log_loss": 5.5699549120955885,
+      "baseline_rank": 40,
+      "baseline_choice_brier": 1.0855173664417164,
+      "persona_log_loss": 5.903601945734785,
+      "persona_rank": 37,
+      "persona_choice_brier": 1.1528165758552102
+    },
+    {
+      "slot": 111,
+      "round": 10,
+      "manager": "Austin",
+      "fold": 7,
+      "baseline_log_loss": 1.0534377883052897,
+      "baseline_rank": 1,
+      "baseline_choice_brier": 0.45748517520374915,
+      "persona_log_loss": 0.9079750134611536,
+      "persona_rank": 1,
+      "persona_choice_brier": 0.39287412277358347
+    },
+    {
+      "slot": 114,
+      "round": 10,
+      "manager": "Nick",
+      "fold": 7,
+      "baseline_log_loss": 3.6784482756015797,
+      "baseline_rank": 7,
+      "baseline_choice_brier": 1.1050122981722414,
+      "persona_log_loss": 3.7218249867076394,
+      "persona_rank": 7,
+      "persona_choice_brier": 1.1283116458717906
+    },
+    {
+      "slot": 115,
+      "round": 10,
+      "manager": "Raul",
+      "fold": 7,
+      "baseline_log_loss": 6.706711411460824,
+      "baseline_rank": 66,
+      "baseline_choice_brier": 1.153303708901413,
+      "persona_log_loss": 6.497468056565559,
+      "persona_rank": 58,
+      "persona_choice_brier": 1.1594739328008667
+    },
+    {
+      "slot": 120,
+      "round": 10,
+      "manager": "Addison",
+      "fold": 7,
+      "baseline_log_loss": 4.158387171765265,
+      "baseline_rank": 10,
+      "baseline_choice_brier": 1.1247578125269364,
+      "persona_log_loss": 4.512631779252652,
+      "persona_rank": 11,
+      "persona_choice_brier": 1.1927504772652147
+    },
+    {
+      "slot": 122,
+      "round": 11,
+      "manager": "San",
+      "fold": 10,
+      "baseline_log_loss": 4.735608547070219,
+      "baseline_rank": 19,
+      "baseline_choice_brier": 1.0817169799222839,
+      "persona_log_loss": 4.721557588869043,
+      "persona_rank": 19,
+      "persona_choice_brier": 1.080152285389921
+    },
+    {
+      "slot": 123,
+      "round": 11,
+      "manager": "Shiven",
+      "fold": 10,
+      "baseline_log_loss": 4.8497857905600075,
+      "baseline_rank": 21,
+      "baseline_choice_brier": 1.0839123374607869,
+      "persona_log_loss": 4.959125333974944,
+      "persona_rank": 21,
+      "persona_choice_brier": 1.1053182190135293
+    },
+    {
+      "slot": 124,
+      "round": 11,
+      "manager": "Samet",
+      "fold": 10,
+      "baseline_log_loss": 2.1300429450205307,
+      "baseline_rank": 2,
+      "baseline_choice_brier": 0.8622132268126197,
+      "persona_log_loss": 1.9793309662022711,
+      "persona_rank": 2,
+      "persona_choice_brier": 0.8841724802570966
+    },
+    {
+      "slot": 125,
+      "round": 11,
+      "manager": "Adam",
+      "fold": 10,
+      "baseline_log_loss": 4.790506199320943,
+      "baseline_rank": 20,
+      "baseline_choice_brier": 1.0835379231956497,
+      "persona_log_loss": 4.938031561320645,
+      "persona_rank": 23,
+      "persona_choice_brier": 1.091651942267171
+    },
+    {
+      "slot": 126,
+      "round": 11,
+      "manager": "Raul",
+      "fold": 10,
+      "baseline_log_loss": 5.135872107924,
+      "baseline_rank": 28,
+      "baseline_choice_brier": 1.0887028503911553,
+      "persona_log_loss": 5.14896514086448,
+      "persona_rank": 30,
+      "persona_choice_brier": 1.0850509687754502
+    },
+    {
+      "slot": 128,
+      "round": 11,
+      "manager": "Ashley",
+      "fold": 10,
+      "baseline_log_loss": 5.72447105291013,
+      "baseline_rank": 45,
+      "baseline_choice_brier": 1.0943178609226158,
+      "persona_log_loss": 5.620011808836618,
+      "persona_rank": 44,
+      "persona_choice_brier": 1.0862877437311669
+    },
+    {
+      "slot": 130,
+      "round": 11,
+      "manager": "Austin",
+      "fold": 10,
+      "baseline_log_loss": 5.6684451853366,
+      "baseline_rank": 43,
+      "baseline_choice_brier": 1.094640319783342,
+      "persona_log_loss": 5.9046031149456795,
+      "persona_rank": 42,
+      "persona_choice_brier": 1.1236873392818199
+    },
+    {
+      "slot": 131,
+      "round": 11,
+      "manager": "Jipples",
+      "fold": 10,
+      "baseline_log_loss": 3.389951627506479,
+      "baseline_rank": 6,
+      "baseline_choice_brier": 1.0344900582396641,
+      "persona_log_loss": 3.3214292910372083,
+      "persona_rank": 6,
+      "persona_choice_brier": 1.0451572217677993
+    },
+    {
+      "slot": 132,
+      "round": 11,
+      "manager": "Koo",
+      "fold": 10,
+      "baseline_log_loss": 4.089229536967126,
+      "baseline_rank": 11,
+      "baseline_choice_brier": 1.068708828984275,
+      "persona_log_loss": 4.213362527603222,
+      "persona_rank": 11,
+      "persona_choice_brier": 1.1034696247082123
+    },
+    {
+      "slot": 133,
+      "round": 12,
+      "manager": "Koo",
+      "fold": 10,
+      "baseline_log_loss": 4.8872152911750515,
+      "baseline_rank": 22,
+      "baseline_choice_brier": 1.0877542085146652,
+      "persona_log_loss": 5.081167757006341,
+      "persona_rank": 21,
+      "persona_choice_brier": 1.1212669421321306
+    },
+    {
+      "slot": 135,
+      "round": 12,
+      "manager": "Austin",
+      "fold": 10,
+      "baseline_log_loss": 3.852108403109071,
+      "baseline_rank": 9,
+      "baseline_choice_brier": 1.0607470610544003,
+      "persona_log_loss": 3.9227573064641446,
+      "persona_rank": 10,
+      "persona_choice_brier": 1.0910870697945965
+    },
+    {
+      "slot": 137,
+      "round": 12,
+      "manager": "Ashley",
+      "fold": 10,
+      "baseline_log_loss": 4.181230561429135,
+      "baseline_rank": 12,
+      "baseline_choice_brier": 1.0733756819099958,
+      "persona_log_loss": 4.166271605287177,
+      "persona_rank": 11,
+      "persona_choice_brier": 1.064967413214879
+    },
+    {
+      "slot": 138,
+      "round": 12,
+      "manager": "Nick",
+      "fold": 10,
+      "baseline_log_loss": 4.357725426947109,
+      "baseline_rank": 14,
+      "baseline_choice_brier": 1.078680407565433,
+      "persona_log_loss": 4.524018428754745,
+      "persona_rank": 15,
+      "persona_choice_brier": 1.1156650352059863
+    },
+    {
+      "slot": 139,
+      "round": 12,
+      "manager": "Raul",
+      "fold": 10,
+      "baseline_log_loss": 5.704660187698098,
+      "baseline_rank": 45,
+      "baseline_choice_brier": 1.0982030848255475,
+      "persona_log_loss": 5.457419867480762,
+      "persona_rank": 36,
+      "persona_choice_brier": 1.0920873532170785
+    },
+    {
+      "slot": 140,
+      "round": 12,
+      "manager": "Adam",
+      "fold": 10,
+      "baseline_log_loss": 5.308445729984383,
+      "baseline_rank": 32,
+      "baseline_choice_brier": 1.095401742754927,
+      "persona_log_loss": 5.317938705000405,
+      "persona_rank": 30,
+      "persona_choice_brier": 1.100889036280566
+    },
+    {
+      "slot": 141,
+      "round": 12,
+      "manager": "Samet",
+      "fold": 10,
+      "baseline_log_loss": 5.953243045044911,
+      "baseline_rank": 56,
+      "baseline_choice_brier": 1.1005498786919337,
+      "persona_log_loss": 6.291882106209094,
+      "persona_rank": 50,
+      "persona_choice_brier": 1.1611194972807841
+    },
+    {
+      "slot": 142,
+      "round": 12,
+      "manager": "Shiven",
+      "fold": 10,
+      "baseline_log_loss": 5.951055992830902,
+      "baseline_rank": 56,
+      "baseline_choice_brier": 1.1009972697627757,
+      "persona_log_loss": 6.124378557818101,
+      "persona_rank": 59,
+      "persona_choice_brier": 1.1202131751810684
+    },
+    {
+      "slot": 143,
+      "round": 12,
+      "manager": "San",
+      "fold": 10,
+      "baseline_log_loss": 4.758576128784075,
+      "baseline_rank": 21,
+      "baseline_choice_brier": 1.0895178768353733,
+      "persona_log_loss": 4.742803517740252,
+      "persona_rank": 21,
+      "persona_choice_brier": 1.0866354902698874
+    },
+    {
+      "slot": 144,
+      "round": 12,
+      "manager": "Addison",
+      "fold": 10,
+      "baseline_log_loss": 4.696608288403955,
+      "baseline_rank": 19,
+      "baseline_choice_brier": 1.0889811165186902,
+      "persona_log_loss": 5.05774618032739,
+      "persona_rank": 20,
+      "persona_choice_brier": 1.1419014577018938
+    },
+    {
+      "slot": 145,
+      "round": 13,
+      "manager": "Addison",
+      "fold": 10,
+      "baseline_log_loss": 5.765712795567208,
+      "baseline_rank": 48,
+      "baseline_choice_brier": 1.1014448368937686,
+      "persona_log_loss": 6.1518579008818985,
+      "persona_rank": 49,
+      "persona_choice_brier": 1.1505993762064526
+    },
+    {
+      "slot": 146,
+      "round": 13,
+      "manager": "San",
+      "fold": 10,
+      "baseline_log_loss": 3.3594888271771097,
+      "baseline_rank": 6,
+      "baseline_choice_brier": 1.038711846001677,
+      "persona_log_loss": 3.35356640390756,
+      "persona_rank": 6,
+      "persona_choice_brier": 1.0355952896772294
+    },
+    {
+      "slot": 147,
+      "round": 13,
+      "manager": "Shiven",
+      "fold": 10,
+      "baseline_log_loss": 5.999671935133781,
+      "baseline_rank": 59,
+      "baseline_choice_brier": 1.1037358991626274,
+      "persona_log_loss": 6.240380706574992,
+      "persona_rank": 59,
+      "persona_choice_brier": 1.1233396115491565
+    },
+    {
+      "slot": 148,
+      "round": 13,
+      "manager": "Samet",
+      "fold": 10,
+      "baseline_log_loss": 5.851192717742209,
+      "baseline_rank": 52,
+      "baseline_choice_brier": 1.1034769631130368,
+      "persona_log_loss": 6.364518654101852,
+      "persona_rank": 55,
+      "persona_choice_brier": 1.165162899868422
+    },
+    {
+      "slot": 149,
+      "round": 13,
+      "manager": "Adam",
+      "fold": 10,
+      "baseline_log_loss": 5.681519452090258,
+      "baseline_rank": 45,
+      "baseline_choice_brier": 1.1029621686352278,
+      "persona_log_loss": 5.796864088994861,
+      "persona_rank": 52,
+      "persona_choice_brier": 1.1096192139981238
+    },
+    {
+      "slot": 150,
+      "round": 13,
+      "manager": "Raul",
+      "fold": 10,
+      "baseline_log_loss": 4.2434981904964175,
+      "baseline_rank": 13,
+      "baseline_choice_brier": 1.0816279674438918,
+      "persona_log_loss": 4.266875267586403,
+      "persona_rank": 14,
+      "persona_choice_brier": 1.0783935299882899
+    },
+    {
+      "slot": 151,
+      "round": 13,
+      "manager": "Nick",
+      "fold": 10,
+      "baseline_log_loss": 5.774998576992998,
+      "baseline_rank": 49,
+      "baseline_choice_brier": 1.1046613310212527,
+      "persona_log_loss": 6.063559154894034,
+      "persona_rank": 51,
+      "persona_choice_brier": 1.1386297327954105
+    },
+    {
+      "slot": 152,
+      "round": 13,
+      "manager": "Ashley",
+      "fold": 10,
+      "baseline_log_loss": 5.243022804767469,
+      "baseline_rank": 31,
+      "baseline_choice_brier": 1.1008979343631835,
+      "persona_log_loss": 5.327520718861111,
+      "persona_rank": 36,
+      "persona_choice_brier": 1.0942609045344882
+    },
+    {
+      "slot": 155,
+      "round": 13,
+      "manager": "Jipples",
+      "fold": 10,
+      "baseline_log_loss": 5.034439453292827,
+      "baseline_rank": 26,
+      "baseline_choice_brier": 1.0996210640524555,
+      "persona_log_loss": 5.273702683264976,
+      "persona_rank": 28,
+      "persona_choice_brier": 1.1180522583347652
+    },
+    {
+      "slot": 156,
+      "round": 13,
+      "manager": "Koo",
+      "fold": 10,
+      "baseline_log_loss": 5.715973867188578,
+      "baseline_rank": 47,
+      "baseline_choice_brier": 1.1066979425190728,
+      "persona_log_loss": 5.971268238085973,
+      "persona_rank": 49,
+      "persona_choice_brier": 1.137393344936914
+    }
+  ],
+  "limitations": [
+    "One league-season; historical ADP measurement date unknown.",
+    "Only known-ADP alternatives are scored; four live picks have missing ADP.",
+    "No historical fantasy value/roster-fit coefficients fitted. Exported positions are coarse and not verified historical Yahoo eligibility.",
+    "Choice Brier is not survival Brier. Multi-pick survival calibration is not established by this small single-season validation."
+  ],
+  "survival_replay": {
+    "n_anchors": 18,
+    "n_candidate_outcomes": 189,
+    "trials_per_anchor_model": 120,
+    "metrics": {
+      "baseline": {
+        "survival_brier": 0.16984567901234568,
+        "reliability_bins": [
+          {
+            "low": 0,
+            "high": 0.2,
+            "n": 33,
+            "predicted": 0.06212121212121212,
+            "observed": 0.6363636363636364
+          },
+          {
+            "low": 0.2,
+            "high": 0.4,
+            "n": 8,
+            "predicted": 0.29375,
+            "observed": 0.625
+          },
+          {
+            "low": 0.4,
+            "high": 0.6000000000000001,
+            "n": 15,
+            "predicted": 0.49833333333333335,
+            "observed": 0.8
+          },
+          {
+            "low": 0.6,
+            "high": 0.8,
+            "n": 10,
+            "predicted": 0.7066666666666667,
+            "observed": 0.8
+          },
+          {
+            "low": 0.8,
+            "high": 1.0,
+            "n": 124,
+            "predicted": 0.9624327956989247,
+            "observed": 0.9516129032258065
+          }
+        ]
+      },
+      "persona": {
+        "survival_brier": 0.1768691211052322,
+        "reliability_bins": [
+          {
+            "low": 0,
+            "high": 0.2,
+            "n": 36,
+            "predicted": 0.060648148148148145,
+            "observed": 0.6388888888888888
+          },
+          {
+            "low": 0.2,
+            "high": 0.4,
+            "n": 9,
+            "predicted": 0.3055555555555556,
+            "observed": 0.6666666666666666
+          },
+          {
+            "low": 0.4,
+            "high": 0.6000000000000001,
+            "n": 14,
+            "predicted": 0.5279761904761905,
+            "observed": 0.8571428571428571
+          },
+          {
+            "low": 0.6,
+            "high": 0.8,
+            "n": 6,
+            "predicted": 0.7069444444444444,
+            "observed": 0.6666666666666666
+          },
+          {
+            "low": 0.8,
+            "high": 1.0,
+            "n": 124,
+            "predicted": 0.9620295698924731,
+            "observed": 0.9516129032258065
+          }
+        ]
+      }
+    },
+    "predictions": [
+      {
+        "anchor_slot": 62,
+        "target_slot": 83,
+        "round": 6,
+        "player_id": "rw:3019",
+        "observed_survived": true,
+        "baseline_probability": 0.0,
+        "persona_probability": 0.0
+      },
+      {
+        "anchor_slot": 62,
+        "target_slot": 83,
+        "round": 6,
+        "player_id": "rw:4372",
+        "observed_survived": false,
+        "baseline_probability": 0.0,
+        "persona_probability": 0.0
+      },
+      {
+        "anchor_slot": 62,
+        "target_slot": 83,
+        "round": 6,
+        "player_id": "rw:4375",
+        "observed_survived": false,
+        "baseline_probability": 0.0,
+        "persona_probability": 0.0
+      },
+      {
+        "anchor_slot": 62,
+        "target_slot": 83,
+        "round": 6,
+        "player_id": "rw:4780",
+        "observed_survived": false,
+        "baseline_probability": 0.0,
+        "persona_probability": 0.0
+      },
+      {
+        "anchor_slot": 62,
+        "target_slot": 83,
+        "round": 6,
+        "player_id": "rw:3114",
+        "observed_survived": true,
+        "baseline_probability": 0.008333333333333333,
+        "persona_probability": 0.008333333333333333
+      },
+      {
+        "anchor_slot": 62,
+        "target_slot": 83,
+        "round": 6,
+        "player_id": "rw:5693",
+        "observed_survived": false,
+        "baseline_probability": 0.03333333333333333,
+        "persona_probability": 0.041666666666666664
+      },
+      {
+        "anchor_slot": 62,
+        "target_slot": 83,
+        "round": 6,
+        "player_id": "rw:6254",
+        "observed_survived": true,
+        "baseline_probability": 0.5166666666666667,
+        "persona_probability": 0.49166666666666664
+      },
+      {
+        "anchor_slot": 62,
+        "target_slot": 83,
+        "round": 6,
+        "player_id": "rw:5113",
+        "observed_survived": true,
+        "baseline_probability": 0.925,
+        "persona_probability": 0.9083333333333333
+      },
+      {
+        "anchor_slot": 62,
+        "target_slot": 83,
+        "round": 6,
+        "player_id": "rw:3577",
+        "observed_survived": true,
+        "baseline_probability": 0.9583333333333334,
+        "persona_probability": 0.9666666666666667
+      },
+      {
+        "anchor_slot": 62,
+        "target_slot": 83,
+        "round": 6,
+        "player_id": "rw:6551",
+        "observed_survived": true,
+        "baseline_probability": 0.9916666666666667,
+        "persona_probability": 0.9916666666666667
+      },
+      {
+        "anchor_slot": 62,
+        "target_slot": 83,
+        "round": 6,
+        "player_id": "rw:3760",
+        "observed_survived": true,
+        "baseline_probability": 0.975,
+        "persona_probability": 0.9833333333333333
+      },
+      {
+        "anchor_slot": 65,
+        "target_slot": 80,
+        "round": 6,
+        "player_id": "rw:3019",
+        "observed_survived": true,
+        "baseline_probability": 0.0,
+        "persona_probability": 0.0
+      },
+      {
+        "anchor_slot": 65,
+        "target_slot": 80,
+        "round": 6,
+        "player_id": "rw:4375",
+        "observed_survived": false,
+        "baseline_probability": 0.008333333333333333,
+        "persona_probability": 0.016666666666666666
+      },
+      {
+        "anchor_slot": 65,
+        "target_slot": 80,
+        "round": 6,
+        "player_id": "rw:4780",
+        "observed_survived": false,
+        "baseline_probability": 0.025,
+        "persona_probability": 0.016666666666666666
+      },
+      {
+        "anchor_slot": 65,
+        "target_slot": 80,
+        "round": 6,
+        "player_id": "rw:4791",
+        "observed_survived": false,
+        "baseline_probability": 0.041666666666666664,
+        "persona_probability": 0.025
+      },
+      {
+        "anchor_slot": 65,
+        "target_slot": 80,
+        "round": 6,
+        "player_id": "rw:4386",
+        "observed_survived": false,
+        "baseline_probability": 0.175,
+        "persona_probability": 0.18333333333333332
+      },
+      {
+        "anchor_slot": 65,
+        "target_slot": 80,
+        "round": 6,
+        "player_id": "rw:3726",
+        "observed_survived": true,
+        "baseline_probability": 0.49166666666666664,
+        "persona_probability": 0.475
+      },
+      {
+        "anchor_slot": 65,
+        "target_slot": 80,
+        "round": 6,
+        "player_id": "rw:5710",
+        "observed_survived": true,
+        "baseline_probability": 0.8833333333333333,
+        "persona_probability": 0.8666666666666667
+      },
+      {
+        "anchor_slot": 65,
+        "target_slot": 80,
+        "round": 6,
+        "player_id": "rw:6592",
+        "observed_survived": true,
+        "baseline_probability": 0.9666666666666667,
+        "persona_probability": 0.9916666666666667
+      },
+      {
+        "anchor_slot": 65,
+        "target_slot": 80,
+        "round": 6,
+        "player_id": "rw:5111",
+        "observed_survived": true,
+        "baseline_probability": 0.9833333333333333,
+        "persona_probability": 0.9666666666666667
+      },
+      {
+        "anchor_slot": 65,
+        "target_slot": 80,
+        "round": 6,
+        "player_id": "rw:4117",
+        "observed_survived": true,
+        "baseline_probability": 0.975,
+        "persona_probability": 1.0
+      },
+      {
+        "anchor_slot": 65,
+        "target_slot": 80,
+        "round": 6,
+        "player_id": "rw:4110",
+        "observed_survived": true,
+        "baseline_probability": 1.0,
+        "persona_probability": 1.0
+      },
+      {
+        "anchor_slot": 67,
+        "target_slot": 78,
+        "round": 6,
+        "player_id": "rw:3019",
+        "observed_survived": true,
+        "baseline_probability": 0.016666666666666666,
+        "persona_probability": 0.016666666666666666
+      },
+      {
+        "anchor_slot": 67,
+        "target_slot": 78,
+        "round": 6,
+        "player_id": "rw:4375",
+        "observed_survived": false,
+        "baseline_probability": 0.041666666666666664,
+        "persona_probability": 0.041666666666666664
+      },
+      {
+        "anchor_slot": 67,
+        "target_slot": 78,
+        "round": 6,
+        "player_id": "rw:4780",
+        "observed_survived": false,
+        "baseline_probability": 0.10833333333333334,
+        "persona_probability": 0.1
+      },
+      {
+        "anchor_slot": 67,
+        "target_slot": 78,
+        "round": 6,
+        "player_id": "rw:3114",
+        "observed_survived": true,
+        "baseline_probability": 0.11666666666666667,
+        "persona_probability": 0.09166666666666666
+      },
+      {
+        "anchor_slot": 67,
+        "target_slot": 78,
+        "round": 6,
+        "player_id": "rw:5693",
+        "observed_survived": false,
+        "baseline_probability": 0.5166666666666667,
+        "persona_probability": 0.49166666666666664
+      },
+      {
+        "anchor_slot": 67,
+        "target_slot": 78,
+        "round": 6,
+        "player_id": "rw:5938",
+        "observed_survived": false,
+        "baseline_probability": 0.8583333333333333,
+        "persona_probability": 0.8333333333333334
+      },
+      {
+        "anchor_slot": 67,
+        "target_slot": 78,
+        "round": 6,
+        "player_id": "rw:4159",
+        "observed_survived": true,
+        "baseline_probability": 0.9166666666666666,
+        "persona_probability": 0.8916666666666667
+      },
+      {
+        "anchor_slot": 67,
+        "target_slot": 78,
+        "round": 6,
+        "player_id": "rw:3029",
+        "observed_survived": true,
+        "baseline_probability": 0.9583333333333334,
+        "persona_probability": 0.9916666666666667
+      },
+      {
+        "anchor_slot": 67,
+        "target_slot": 78,
+        "round": 6,
+        "player_id": "rw:6540",
+        "observed_survived": true,
+        "baseline_probability": 0.9833333333333333,
+        "persona_probability": 0.9916666666666667
+      },
+      {
+        "anchor_slot": 67,
+        "target_slot": 78,
+        "round": 6,
+        "player_id": "rw:5287",
+        "observed_survived": true,
+        "baseline_probability": 0.9833333333333333,
+        "persona_probability": 0.9916666666666667
+      },
+      {
+        "anchor_slot": 67,
+        "target_slot": 78,
+        "round": 6,
+        "player_id": "rw:5927",
+        "observed_survived": true,
+        "baseline_probability": 1.0,
+        "persona_probability": 0.9916666666666667
+      },
+      {
+        "anchor_slot": 68,
+        "target_slot": 77,
+        "round": 6,
+        "player_id": "rw:3019",
+        "observed_survived": true,
+        "baseline_probability": 0.041666666666666664,
+        "persona_probability": 0.041666666666666664
+      },
+      {
+        "anchor_slot": 68,
+        "target_slot": 77,
+        "round": 6,
+        "player_id": "rw:4375",
+        "observed_survived": false,
+        "baseline_probability": 0.125,
+        "persona_probability": 0.11666666666666667
+      },
+      {
+        "anchor_slot": 68,
+        "target_slot": 77,
+        "round": 6,
+        "player_id": "rw:4780",
+        "observed_survived": false,
+        "baseline_probability": 0.23333333333333334,
+        "persona_probability": 0.19166666666666668
+      },
+      {
+        "anchor_slot": 68,
+        "target_slot": 77,
+        "round": 6,
+        "player_id": "rw:3114",
+        "observed_survived": true,
+        "baseline_probability": 0.49166666666666664,
+        "persona_probability": 0.48333333333333334
+      },
+      {
+        "anchor_slot": 68,
+        "target_slot": 77,
+        "round": 6,
+        "player_id": "rw:5693",
+        "observed_survived": false,
+        "baseline_probability": 0.775,
+        "persona_probability": 0.7333333333333333
+      },
+      {
+        "anchor_slot": 68,
+        "target_slot": 77,
+        "round": 6,
+        "player_id": "rw:6254",
+        "observed_survived": true,
+        "baseline_probability": 0.8666666666666667,
+        "persona_probability": 0.9166666666666666
+      },
+      {
+        "anchor_slot": 68,
+        "target_slot": 77,
+        "round": 6,
+        "player_id": "rw:4916",
+        "observed_survived": true,
+        "baseline_probability": 0.95,
+        "persona_probability": 0.95
+      },
+      {
+        "anchor_slot": 68,
+        "target_slot": 77,
+        "round": 6,
+        "player_id": "rw:5960",
+        "observed_survived": true,
+        "baseline_probability": 0.9666666666666667,
+        "persona_probability": 0.9833333333333333
+      },
+      {
+        "anchor_slot": 68,
+        "target_slot": 77,
+        "round": 6,
+        "player_id": "rw:5696",
+        "observed_survived": true,
+        "baseline_probability": 1.0,
+        "persona_probability": 0.9833333333333333
+      },
+      {
+        "anchor_slot": 68,
+        "target_slot": 77,
+        "round": 6,
+        "player_id": "rw:5889",
+        "observed_survived": true,
+        "baseline_probability": 0.9916666666666667,
+        "persona_probability": 0.9833333333333333
+      },
+      {
+        "anchor_slot": 68,
+        "target_slot": 77,
+        "round": 6,
+        "player_id": "rw:2584",
+        "observed_survived": true,
+        "baseline_probability": 1.0,
+        "persona_probability": 1.0
+      },
+      {
+        "anchor_slot": 69,
+        "target_slot": 76,
+        "round": 6,
+        "player_id": "rw:3019",
+        "observed_survived": true,
+        "baseline_probability": 0.18333333333333332,
+        "persona_probability": 0.175
+      },
+      {
+        "anchor_slot": 69,
+        "target_slot": 76,
+        "round": 6,
+        "player_id": "rw:4375",
+        "observed_survived": false,
+        "baseline_probability": 0.4083333333333333,
+        "persona_probability": 0.35
+      },
+      {
+        "anchor_slot": 69,
+        "target_slot": 76,
+        "round": 6,
+        "player_id": "rw:3114",
+        "observed_survived": true,
+        "baseline_probability": 0.55,
+        "persona_probability": 0.5333333333333333
+      },
+      {
+        "anchor_slot": 69,
+        "target_slot": 76,
+        "round": 6,
+        "player_id": "rw:5360",
+        "observed_survived": true,
+        "baseline_probability": 0.8083333333333333,
+        "persona_probability": 0.8
+      },
+      {
+        "anchor_slot": 69,
+        "target_slot": 76,
+        "round": 6,
+        "player_id": "rw:3726",
+        "observed_survived": true,
+        "baseline_probability": 0.9083333333333333,
+        "persona_probability": 0.8833333333333333
+      },
+      {
+        "anchor_slot": 69,
+        "target_slot": 76,
+        "round": 6,
+        "player_id": "rw:5710",
+        "observed_survived": true,
+        "baseline_probability": 0.9666666666666667,
+        "persona_probability": 0.95
+      },
+      {
+        "anchor_slot": 69,
+        "target_slot": 76,
+        "round": 6,
+        "player_id": "rw:6550",
+        "observed_survived": true,
+        "baseline_probability": 0.9583333333333334,
+        "persona_probability": 0.9833333333333333
+      },
+      {
+        "anchor_slot": 69,
+        "target_slot": 76,
+        "round": 6,
+        "player_id": "rw:6269",
+        "observed_survived": true,
+        "baseline_probability": 0.9666666666666667,
+        "persona_probability": 1.0
+      },
+      {
+        "anchor_slot": 69,
+        "target_slot": 76,
+        "round": 6,
+        "player_id": "rw:5910",
+        "observed_survived": true,
+        "baseline_probability": 1.0,
+        "persona_probability": 1.0
+      },
+      {
+        "anchor_slot": 69,
+        "target_slot": 76,
+        "round": 6,
+        "player_id": "rw:6567",
+        "observed_survived": true,
+        "baseline_probability": 1.0,
+        "persona_probability": 0.975
+      },
+      {
+        "anchor_slot": 69,
+        "target_slot": 76,
+        "round": 6,
+        "player_id": "rw:5640",
+        "observed_survived": true,
+        "baseline_probability": 1.0,
+        "persona_probability": 1.0
+      },
+      {
+        "anchor_slot": 70,
+        "target_slot": 75,
+        "round": 6,
+        "player_id": "rw:3019",
+        "observed_survived": true,
+        "baseline_probability": 0.575,
+        "persona_probability": 0.55
+      },
+      {
+        "anchor_slot": 70,
+        "target_slot": 75,
+        "round": 6,
+        "player_id": "rw:4375",
+        "observed_survived": false,
+        "baseline_probability": 0.8583333333333333,
+        "persona_probability": 0.825
+      },
+      {
+        "anchor_slot": 70,
+        "target_slot": 75,
+        "round": 6,
+        "player_id": "rw:3114",
+        "observed_survived": true,
+        "baseline_probability": 0.925,
+        "persona_probability": 0.95
+      },
+      {
+        "anchor_slot": 70,
+        "target_slot": 75,
+        "round": 6,
+        "player_id": "rw:5360",
+        "observed_survived": true,
+        "baseline_probability": 0.9583333333333334,
+        "persona_probability": 0.9666666666666667
+      },
+      {
+        "anchor_slot": 70,
+        "target_slot": 75,
+        "round": 6,
+        "player_id": "rw:3726",
+        "observed_survived": true,
+        "baseline_probability": 0.9833333333333333,
+        "persona_probability": 0.9666666666666667
+      },
+      {
+        "anchor_slot": 70,
+        "target_slot": 75,
+        "round": 6,
+        "player_id": "rw:5668",
+        "observed_survived": true,
+        "baseline_probability": 0.9916666666666667,
+        "persona_probability": 0.9916666666666667
+      },
+      {
+        "anchor_slot": 70,
+        "target_slot": 75,
+        "round": 6,
+        "player_id": "rw:4806",
+        "observed_survived": true,
+        "baseline_probability": 0.9916666666666667,
+        "persona_probability": 1.0
+      },
+      {
+        "anchor_slot": 70,
+        "target_slot": 75,
+        "round": 6,
+        "player_id": "rw:4827",
+        "observed_survived": true,
+        "baseline_probability": 0.9916666666666667,
+        "persona_probability": 0.9916666666666667
+      },
+      {
+        "anchor_slot": 70,
+        "target_slot": 75,
+        "round": 6,
+        "player_id": "rw:5704",
+        "observed_survived": true,
+        "baseline_probability": 1.0,
+        "persona_probability": 0.9916666666666667
+      },
+      {
+        "anchor_slot": 70,
+        "target_slot": 75,
+        "round": 6,
+        "player_id": "rw:6263",
+        "observed_survived": true,
+        "baseline_probability": 1.0,
+        "persona_probability": 1.0
+      },
+      {
+        "anchor_slot": 70,
+        "target_slot": 75,
+        "round": 6,
+        "player_id": "rw:4412",
+        "observed_survived": true,
+        "baseline_probability": 1.0,
+        "persona_probability": 1.0
+      },
+      {
+        "anchor_slot": 95,
+        "target_slot": 96,
+        "round": 8,
+        "player_id": "rw:5360",
+        "observed_survived": true,
+        "baseline_probability": 1.0,
+        "persona_probability": 1.0
+      },
+      {
+        "anchor_slot": 95,
+        "target_slot": 96,
+        "round": 8,
+        "player_id": "rw:5668",
+        "observed_survived": true,
+        "baseline_probability": 1.0,
+        "persona_probability": 1.0
+      },
+      {
+        "anchor_slot": 95,
+        "target_slot": 96,
+        "round": 8,
+        "player_id": "rw:6550",
+        "observed_survived": true,
+        "baseline_probability": 1.0,
+        "persona_probability": 1.0
+      },
+      {
+        "anchor_slot": 95,
+        "target_slot": 96,
+        "round": 8,
+        "player_id": "rw:6592",
+        "observed_survived": true,
+        "baseline_probability": 1.0,
+        "persona_probability": 1.0
+      },
+      {
+        "anchor_slot": 95,
+        "target_slot": 96,
+        "round": 8,
+        "player_id": "rw:5960",
+        "observed_survived": true,
+        "baseline_probability": 1.0,
+        "persona_probability": 1.0
+      },
+      {
+        "anchor_slot": 95,
+        "target_slot": 96,
+        "round": 8,
+        "player_id": "rw:6250",
+        "observed_survived": true,
+        "baseline_probability": 1.0,
+        "persona_probability": 1.0
+      },
+      {
+        "anchor_slot": 95,
+        "target_slot": 96,
+        "round": 8,
+        "player_id": "rw:6541",
+        "observed_survived": true,
+        "baseline_probability": 1.0,
+        "persona_probability": 1.0
+      },
+      {
+        "anchor_slot": 95,
+        "target_slot": 96,
+        "round": 8,
+        "player_id": "rw:5910",
+        "observed_survived": true,
+        "baseline_probability": 1.0,
+        "persona_probability": 1.0
+      },
+      {
+        "anchor_slot": 95,
+        "target_slot": 96,
+        "round": 8,
+        "player_id": "rw:4117",
+        "observed_survived": true,
+        "baseline_probability": 1.0,
+        "persona_probability": 1.0
+      },
+      {
+        "anchor_slot": 95,
+        "target_slot": 96,
+        "round": 8,
+        "player_id": "rw:4167",
+        "observed_survived": true,
+        "baseline_probability": 1.0,
+        "persona_probability": 1.0
+      },
+      {
+        "anchor_slot": 95,
+        "target_slot": 96,
+        "round": 8,
+        "player_id": "rw:5945",
+        "observed_survived": true,
+        "baseline_probability": 1.0,
+        "persona_probability": 1.0
+      },
+      {
+        "anchor_slot": 104,
+        "target_slot": 107,
+        "round": 9,
+        "player_id": "rw:5360",
+        "observed_survived": true,
+        "baseline_probability": 0.7333333333333333,
+        "persona_probability": 0.525
+      },
+      {
+        "anchor_slot": 104,
+        "target_slot": 107,
+        "round": 9,
+        "player_id": "rw:5668",
+        "observed_survived": true,
+        "baseline_probability": 0.8416666666666667,
+        "persona_probability": 0.8916666666666667
+      },
+      {
+        "anchor_slot": 104,
+        "target_slot": 107,
+        "round": 9,
+        "player_id": "rw:6550",
+        "observed_survived": true,
+        "baseline_probability": 0.925,
+        "persona_probability": 0.8916666666666667
+      },
+      {
+        "anchor_slot": 104,
+        "target_slot": 107,
+        "round": 9,
+        "player_id": "rw:6592",
+        "observed_survived": true,
+        "baseline_probability": 0.9833333333333333,
+        "persona_probability": 0.9416666666666667
+      },
+      {
+        "anchor_slot": 104,
+        "target_slot": 107,
+        "round": 9,
+        "player_id": "rw:5960",
+        "observed_survived": true,
+        "baseline_probability": 0.9583333333333334,
+        "persona_probability": 0.9333333333333333
+      },
+      {
+        "anchor_slot": 104,
+        "target_slot": 107,
+        "round": 9,
+        "player_id": "rw:6250",
+        "observed_survived": true,
+        "baseline_probability": 0.95,
+        "persona_probability": 0.9833333333333333
+      },
+      {
+        "anchor_slot": 104,
+        "target_slot": 107,
+        "round": 9,
+        "player_id": "rw:6541",
+        "observed_survived": true,
+        "baseline_probability": 0.9833333333333333,
+        "persona_probability": 1.0
+      },
+      {
+        "anchor_slot": 104,
+        "target_slot": 107,
+        "round": 9,
+        "player_id": "rw:5910",
+        "observed_survived": true,
+        "baseline_probability": 0.9916666666666667,
+        "persona_probability": 1.0
+      },
+      {
+        "anchor_slot": 104,
+        "target_slot": 107,
+        "round": 9,
+        "player_id": "rw:5414",
+        "observed_survived": true,
+        "baseline_probability": 1.0,
+        "persona_probability": 1.0
+      },
+      {
+        "anchor_slot": 104,
+        "target_slot": 107,
+        "round": 9,
+        "player_id": "rw:6266",
+        "observed_survived": true,
+        "baseline_probability": 1.0,
+        "persona_probability": 1.0
+      },
+      {
+        "anchor_slot": 104,
+        "target_slot": 107,
+        "round": 9,
+        "player_id": "rw:5685",
+        "observed_survived": true,
+        "baseline_probability": 0.9916666666666667,
+        "persona_probability": 1.0
+      },
+      {
+        "anchor_slot": 106,
+        "target_slot": 111,
+        "round": 9,
+        "player_id": "rw:5360",
+        "observed_survived": true,
+        "baseline_probability": 0.7416666666666667,
+        "persona_probability": 0.5833333333333334
+      },
+      {
+        "anchor_slot": 106,
+        "target_slot": 111,
+        "round": 9,
+        "player_id": "rw:5668",
+        "observed_survived": true,
+        "baseline_probability": 0.8416666666666667,
+        "persona_probability": 0.9083333333333333
+      },
+      {
+        "anchor_slot": 106,
+        "target_slot": 111,
+        "round": 9,
+        "player_id": "rw:6550",
+        "observed_survived": true,
+        "baseline_probability": 0.9416666666666667,
+        "persona_probability": 0.9
+      },
+      {
+        "anchor_slot": 106,
+        "target_slot": 111,
+        "round": 9,
+        "player_id": "rw:6592",
+        "observed_survived": true,
+        "baseline_probability": 0.9666666666666667,
+        "persona_probability": 0.9
+      },
+      {
+        "anchor_slot": 106,
+        "target_slot": 111,
+        "round": 9,
+        "player_id": "rw:5960",
+        "observed_survived": true,
+        "baseline_probability": 0.9583333333333334,
+        "persona_probability": 0.9833333333333333
+      },
+      {
+        "anchor_slot": 106,
+        "target_slot": 111,
+        "round": 9,
+        "player_id": "rw:6250",
+        "observed_survived": true,
+        "baseline_probability": 0.9833333333333333,
+        "persona_probability": 0.975
+      },
+      {
+        "anchor_slot": 106,
+        "target_slot": 111,
+        "round": 9,
+        "player_id": "rw:6541",
+        "observed_survived": true,
+        "baseline_probability": 0.9916666666666667,
+        "persona_probability": 0.9916666666666667
+      },
+      {
+        "anchor_slot": 106,
+        "target_slot": 111,
+        "round": 9,
+        "player_id": "rw:5910",
+        "observed_survived": true,
+        "baseline_probability": 1.0,
+        "persona_probability": 1.0
+      },
+      {
+        "anchor_slot": 106,
+        "target_slot": 111,
+        "round": 9,
+        "player_id": "rw:5414",
+        "observed_survived": true,
+        "baseline_probability": 1.0,
+        "persona_probability": 0.9916666666666667
+      },
+      {
+        "anchor_slot": 106,
+        "target_slot": 111,
+        "round": 9,
+        "player_id": "rw:6266",
+        "observed_survived": true,
+        "baseline_probability": 1.0,
+        "persona_probability": 1.0
+      },
+      {
+        "anchor_slot": 106,
+        "target_slot": 111,
+        "round": 9,
+        "player_id": "rw:5702",
+        "observed_survived": true,
+        "baseline_probability": 0.9916666666666667,
+        "persona_probability": 1.0
+      },
+      {
+        "anchor_slot": 132,
+        "target_slot": 133,
+        "round": 11,
+        "player_id": "rw:5668",
+        "observed_survived": true,
+        "baseline_probability": 1.0,
+        "persona_probability": 1.0
+      },
+      {
+        "anchor_slot": 132,
+        "target_slot": 133,
+        "round": 11,
+        "player_id": "rw:6592",
+        "observed_survived": true,
+        "baseline_probability": 1.0,
+        "persona_probability": 1.0
+      },
+      {
+        "anchor_slot": 132,
+        "target_slot": 133,
+        "round": 11,
+        "player_id": "rw:3029",
+        "observed_survived": true,
+        "baseline_probability": 1.0,
+        "persona_probability": 1.0
+      },
+      {
+        "anchor_slot": 132,
+        "target_slot": 133,
+        "round": 11,
+        "player_id": "rw:5960",
+        "observed_survived": true,
+        "baseline_probability": 1.0,
+        "persona_probability": 1.0
+      },
+      {
+        "anchor_slot": 132,
+        "target_slot": 133,
+        "round": 11,
+        "player_id": "rw:4836",
+        "observed_survived": true,
+        "baseline_probability": 1.0,
+        "persona_probability": 1.0
+      },
+      {
+        "anchor_slot": 132,
+        "target_slot": 133,
+        "round": 11,
+        "player_id": "rw:4773",
+        "observed_survived": true,
+        "baseline_probability": 1.0,
+        "persona_probability": 1.0
+      },
+      {
+        "anchor_slot": 132,
+        "target_slot": 133,
+        "round": 11,
+        "player_id": "rw:2932",
+        "observed_survived": true,
+        "baseline_probability": 1.0,
+        "persona_probability": 1.0
+      },
+      {
+        "anchor_slot": 132,
+        "target_slot": 133,
+        "round": 11,
+        "player_id": "rw:3588",
+        "observed_survived": true,
+        "baseline_probability": 1.0,
+        "persona_probability": 1.0
+      },
+      {
+        "anchor_slot": 132,
+        "target_slot": 133,
+        "round": 11,
+        "player_id": "rw:3444",
+        "observed_survived": true,
+        "baseline_probability": 1.0,
+        "persona_probability": 1.0
+      },
+      {
+        "anchor_slot": 132,
+        "target_slot": 133,
+        "round": 11,
+        "player_id": "rw:6264",
+        "observed_survived": true,
+        "baseline_probability": 1.0,
+        "persona_probability": 1.0
+      },
+      {
+        "anchor_slot": 137,
+        "target_slot": 152,
+        "round": 12,
+        "player_id": "rw:5668",
+        "observed_survived": true,
+        "baseline_probability": 0.008333333333333333,
+        "persona_probability": 0.008333333333333333
+      },
+      {
+        "anchor_slot": 137,
+        "target_slot": 152,
+        "round": 12,
+        "player_id": "rw:6592",
+        "observed_survived": true,
+        "baseline_probability": 0.03333333333333333,
+        "persona_probability": 0.016666666666666666
+      },
+      {
+        "anchor_slot": 137,
+        "target_slot": 152,
+        "round": 12,
+        "player_id": "rw:5960",
+        "observed_survived": true,
+        "baseline_probability": 0.05,
+        "persona_probability": 0.041666666666666664
+      },
+      {
+        "anchor_slot": 137,
+        "target_slot": 152,
+        "round": 12,
+        "player_id": "rw:6269",
+        "observed_survived": true,
+        "baseline_probability": 0.058333333333333334,
+        "persona_probability": 0.058333333333333334
+      },
+      {
+        "anchor_slot": 137,
+        "target_slot": 152,
+        "round": 12,
+        "player_id": "rw:5899",
+        "observed_survived": false,
+        "baseline_probability": 0.16666666666666666,
+        "persona_probability": 0.11666666666666667
+      },
+      {
+        "anchor_slot": 137,
+        "target_slot": 152,
+        "round": 12,
+        "player_id": "rw:3577",
+        "observed_survived": true,
+        "baseline_probability": 0.4,
+        "persona_probability": 0.3416666666666667
+      },
+      {
+        "anchor_slot": 137,
+        "target_slot": 152,
+        "round": 12,
+        "player_id": "rw:6289",
+        "observed_survived": true,
+        "baseline_probability": 0.6,
+        "persona_probability": 0.625
+      },
+      {
+        "anchor_slot": 137,
+        "target_slot": 152,
+        "round": 12,
+        "player_id": "rw:5287",
+        "observed_survived": false,
+        "baseline_probability": 0.8583333333333333,
+        "persona_probability": 0.825
+      },
+      {
+        "anchor_slot": 137,
+        "target_slot": 152,
+        "round": 12,
+        "player_id": "rw:4167",
+        "observed_survived": true,
+        "baseline_probability": 0.925,
+        "persona_probability": 0.9333333333333333
+      },
+      {
+        "anchor_slot": 137,
+        "target_slot": 152,
+        "round": 12,
+        "player_id": "rw:5945",
+        "observed_survived": true,
+        "baseline_probability": 0.9583333333333334,
+        "persona_probability": 0.9583333333333334
+      },
+      {
+        "anchor_slot": 138,
+        "target_slot": 151,
+        "round": 12,
+        "player_id": "rw:5668",
+        "observed_survived": true,
+        "baseline_probability": 0.025,
+        "persona_probability": 0.0
+      },
+      {
+        "anchor_slot": 138,
+        "target_slot": 151,
+        "round": 12,
+        "player_id": "rw:6592",
+        "observed_survived": true,
+        "baseline_probability": 0.016666666666666666,
+        "persona_probability": 0.03333333333333333
+      },
+      {
+        "anchor_slot": 138,
+        "target_slot": 151,
+        "round": 12,
+        "player_id": "rw:5960",
+        "observed_survived": true,
+        "baseline_probability": 0.05,
+        "persona_probability": 0.058333333333333334
+      },
+      {
+        "anchor_slot": 138,
+        "target_slot": 151,
+        "round": 12,
+        "player_id": "rw:6269",
+        "observed_survived": true,
+        "baseline_probability": 0.11666666666666667,
+        "persona_probability": 0.06666666666666667
+      },
+      {
+        "anchor_slot": 138,
+        "target_slot": 151,
+        "round": 12,
+        "player_id": "rw:5899",
+        "observed_survived": false,
+        "baseline_probability": 0.3416666666666667,
+        "persona_probability": 0.24166666666666667
+      },
+      {
+        "anchor_slot": 138,
+        "target_slot": 151,
+        "round": 12,
+        "player_id": "rw:3577",
+        "observed_survived": true,
+        "baseline_probability": 0.49166666666666664,
+        "persona_probability": 0.575
+      },
+      {
+        "anchor_slot": 138,
+        "target_slot": 151,
+        "round": 12,
+        "player_id": "rw:6289",
+        "observed_survived": true,
+        "baseline_probability": 0.8,
+        "persona_probability": 0.8
+      },
+      {
+        "anchor_slot": 138,
+        "target_slot": 151,
+        "round": 12,
+        "player_id": "rw:5889",
+        "observed_survived": true,
+        "baseline_probability": 0.8916666666666667,
+        "persona_probability": 0.8666666666666667
+      },
+      {
+        "anchor_slot": 138,
+        "target_slot": 151,
+        "round": 12,
+        "player_id": "rw:3760",
+        "observed_survived": true,
+        "baseline_probability": 0.925,
+        "persona_probability": 0.9666666666666667
+      },
+      {
+        "anchor_slot": 138,
+        "target_slot": 151,
+        "round": 12,
+        "player_id": "rw:6270",
+        "observed_survived": true,
+        "baseline_probability": 0.9666666666666667,
+        "persona_probability": 0.975
+      },
+      {
+        "anchor_slot": 139,
+        "target_slot": 150,
+        "round": 12,
+        "player_id": "rw:5668",
+        "observed_survived": true,
+        "baseline_probability": 0.05,
+        "persona_probability": 0.025
+      },
+      {
+        "anchor_slot": 139,
+        "target_slot": 150,
+        "round": 12,
+        "player_id": "rw:6592",
+        "observed_survived": true,
+        "baseline_probability": 0.10833333333333334,
+        "persona_probability": 0.06666666666666667
+      },
+      {
+        "anchor_slot": 139,
+        "target_slot": 150,
+        "round": 12,
+        "player_id": "rw:5960",
+        "observed_survived": true,
+        "baseline_probability": 0.11666666666666667,
+        "persona_probability": 0.10833333333333334
+      },
+      {
+        "anchor_slot": 139,
+        "target_slot": 150,
+        "round": 12,
+        "player_id": "rw:6269",
+        "observed_survived": true,
+        "baseline_probability": 0.2833333333333333,
+        "persona_probability": 0.15833333333333333
+      },
+      {
+        "anchor_slot": 139,
+        "target_slot": 150,
+        "round": 12,
+        "player_id": "rw:5899",
+        "observed_survived": false,
+        "baseline_probability": 0.3416666666666667,
+        "persona_probability": 0.3416666666666667
+      },
+      {
+        "anchor_slot": 139,
+        "target_slot": 150,
+        "round": 12,
+        "player_id": "rw:3577",
+        "observed_survived": true,
+        "baseline_probability": 0.6416666666666667,
+        "persona_probability": 0.5833333333333334
+      },
+      {
+        "anchor_slot": 139,
+        "target_slot": 150,
+        "round": 12,
+        "player_id": "rw:6289",
+        "observed_survived": true,
+        "baseline_probability": 0.85,
+        "persona_probability": 0.8583333333333333
+      },
+      {
+        "anchor_slot": 139,
+        "target_slot": 150,
+        "round": 12,
+        "player_id": "rw:5889",
+        "observed_survived": true,
+        "baseline_probability": 0.925,
+        "persona_probability": 0.925
+      },
+      {
+        "anchor_slot": 139,
+        "target_slot": 150,
+        "round": 12,
+        "player_id": "rw:3760",
+        "observed_survived": true,
+        "baseline_probability": 0.95,
+        "persona_probability": 0.9666666666666667
+      },
+      {
+        "anchor_slot": 139,
+        "target_slot": 150,
+        "round": 12,
+        "player_id": "rw:5377",
+        "observed_survived": true,
+        "baseline_probability": 0.975,
+        "persona_probability": 0.9916666666666667
+      },
+      {
+        "anchor_slot": 140,
+        "target_slot": 149,
+        "round": 12,
+        "player_id": "rw:5668",
+        "observed_survived": true,
+        "baseline_probability": 0.075,
+        "persona_probability": 0.03333333333333333
+      },
+      {
+        "anchor_slot": 140,
+        "target_slot": 149,
+        "round": 12,
+        "player_id": "rw:6592",
+        "observed_survived": true,
+        "baseline_probability": 0.1,
+        "persona_probability": 0.08333333333333333
+      },
+      {
+        "anchor_slot": 140,
+        "target_slot": 149,
+        "round": 12,
+        "player_id": "rw:5960",
+        "observed_survived": true,
+        "baseline_probability": 0.225,
+        "persona_probability": 0.13333333333333333
+      },
+      {
+        "anchor_slot": 140,
+        "target_slot": 149,
+        "round": 12,
+        "player_id": "rw:6269",
+        "observed_survived": true,
+        "baseline_probability": 0.36666666666666664,
+        "persona_probability": 0.275
+      },
+      {
+        "anchor_slot": 140,
+        "target_slot": 149,
+        "round": 12,
+        "player_id": "rw:5899",
+        "observed_survived": false,
+        "baseline_probability": 0.5083333333333333,
+        "persona_probability": 0.5416666666666666
+      },
+      {
+        "anchor_slot": 140,
+        "target_slot": 149,
+        "round": 12,
+        "player_id": "rw:3577",
+        "observed_survived": true,
+        "baseline_probability": 0.7583333333333333,
+        "persona_probability": 0.8083333333333333
+      },
+      {
+        "anchor_slot": 140,
+        "target_slot": 149,
+        "round": 12,
+        "player_id": "rw:6289",
+        "observed_survived": true,
+        "baseline_probability": 0.8666666666666667,
+        "persona_probability": 0.8583333333333333
+      },
+      {
+        "anchor_slot": 140,
+        "target_slot": 149,
+        "round": 12,
+        "player_id": "rw:5889",
+        "observed_survived": true,
+        "baseline_probability": 0.9583333333333334,
+        "persona_probability": 0.925
+      },
+      {
+        "anchor_slot": 140,
+        "target_slot": 149,
+        "round": 12,
+        "player_id": "rw:4110",
+        "observed_survived": true,
+        "baseline_probability": 0.9666666666666667,
+        "persona_probability": 0.95
+      },
+      {
+        "anchor_slot": 140,
+        "target_slot": 149,
+        "round": 12,
+        "player_id": "rw:4426",
+        "observed_survived": false,
+        "baseline_probability": 1.0,
+        "persona_probability": 0.9916666666666667
+      },
+      {
+        "anchor_slot": 141,
+        "target_slot": 148,
+        "round": 12,
+        "player_id": "rw:5668",
+        "observed_survived": true,
+        "baseline_probability": 0.15,
+        "persona_probability": 0.10833333333333334
+      },
+      {
+        "anchor_slot": 141,
+        "target_slot": 148,
+        "round": 12,
+        "player_id": "rw:6592",
+        "observed_survived": true,
+        "baseline_probability": 0.24166666666666667,
+        "persona_probability": 0.2
+      },
+      {
+        "anchor_slot": 141,
+        "target_slot": 148,
+        "round": 12,
+        "player_id": "rw:5960",
+        "observed_survived": true,
+        "baseline_probability": 0.4166666666666667,
+        "persona_probability": 0.35833333333333334
+      },
+      {
+        "anchor_slot": 141,
+        "target_slot": 148,
+        "round": 12,
+        "player_id": "rw:6269",
+        "observed_survived": true,
+        "baseline_probability": 0.525,
+        "persona_probability": 0.5083333333333333
+      },
+      {
+        "anchor_slot": 141,
+        "target_slot": 148,
+        "round": 12,
+        "player_id": "rw:5899",
+        "observed_survived": false,
+        "baseline_probability": 0.725,
+        "persona_probability": 0.65
+      },
+      {
+        "anchor_slot": 141,
+        "target_slot": 148,
+        "round": 12,
+        "player_id": "rw:3577",
+        "observed_survived": true,
+        "baseline_probability": 0.8333333333333334,
+        "persona_probability": 0.825
+      },
+      {
+        "anchor_slot": 141,
+        "target_slot": 148,
+        "round": 12,
+        "player_id": "rw:6289",
+        "observed_survived": true,
+        "baseline_probability": 0.85,
+        "persona_probability": 0.8916666666666667
+      },
+      {
+        "anchor_slot": 141,
+        "target_slot": 148,
+        "round": 12,
+        "player_id": "rw:5889",
+        "observed_survived": true,
+        "baseline_probability": 0.9083333333333333,
+        "persona_probability": 0.9666666666666667
+      },
+      {
+        "anchor_slot": 141,
+        "target_slot": 148,
+        "round": 12,
+        "player_id": "rw:4110",
+        "observed_survived": true,
+        "baseline_probability": 0.9666666666666667,
+        "persona_probability": 1.0
+      },
+      {
+        "anchor_slot": 141,
+        "target_slot": 148,
+        "round": 12,
+        "player_id": "rw:5685",
+        "observed_survived": false,
+        "baseline_probability": 0.9833333333333333,
+        "persona_probability": 0.9833333333333333
+      },
+      {
+        "anchor_slot": 142,
+        "target_slot": 147,
+        "round": 12,
+        "player_id": "rw:5668",
+        "observed_survived": true,
+        "baseline_probability": 0.31666666666666665,
+        "persona_probability": 0.26666666666666666
+      },
+      {
+        "anchor_slot": 142,
+        "target_slot": 147,
+        "round": 12,
+        "player_id": "rw:6592",
+        "observed_survived": true,
+        "baseline_probability": 0.5083333333333333,
+        "persona_probability": 0.4583333333333333
+      },
+      {
+        "anchor_slot": 142,
+        "target_slot": 147,
+        "round": 12,
+        "player_id": "rw:5960",
+        "observed_survived": true,
+        "baseline_probability": 0.6416666666666667,
+        "persona_probability": 0.5916666666666667
+      },
+      {
+        "anchor_slot": 142,
+        "target_slot": 147,
+        "round": 12,
+        "player_id": "rw:6269",
+        "observed_survived": true,
+        "baseline_probability": 0.7,
+        "persona_probability": 0.7333333333333333
+      },
+      {
+        "anchor_slot": 142,
+        "target_slot": 147,
+        "round": 12,
+        "player_id": "rw:5899",
+        "observed_survived": false,
+        "baseline_probability": 0.8166666666666667,
+        "persona_probability": 0.825
+      },
+      {
+        "anchor_slot": 142,
+        "target_slot": 147,
+        "round": 12,
+        "player_id": "rw:3577",
+        "observed_survived": true,
+        "baseline_probability": 0.95,
+        "persona_probability": 0.9083333333333333
+      },
+      {
+        "anchor_slot": 142,
+        "target_slot": 147,
+        "round": 12,
+        "player_id": "rw:6289",
+        "observed_survived": true,
+        "baseline_probability": 0.9583333333333334,
+        "persona_probability": 0.9
+      },
+      {
+        "anchor_slot": 142,
+        "target_slot": 147,
+        "round": 12,
+        "player_id": "rw:5889",
+        "observed_survived": true,
+        "baseline_probability": 0.9416666666666667,
+        "persona_probability": 0.95
+      },
+      {
+        "anchor_slot": 142,
+        "target_slot": 147,
+        "round": 12,
+        "player_id": "rw:4110",
+        "observed_survived": true,
+        "baseline_probability": 1.0,
+        "persona_probability": 0.9833333333333333
+      },
+      {
+        "anchor_slot": 142,
+        "target_slot": 147,
+        "round": 12,
+        "player_id": "rw:5702",
+        "observed_survived": true,
+        "baseline_probability": 1.0,
+        "persona_probability": 0.9916666666666667
+      },
+      {
+        "anchor_slot": 143,
+        "target_slot": 146,
+        "round": 12,
+        "player_id": "rw:5668",
+        "observed_survived": true,
+        "baseline_probability": 0.475,
+        "persona_probability": 0.375
+      },
+      {
+        "anchor_slot": 143,
+        "target_slot": 146,
+        "round": 12,
+        "player_id": "rw:6592",
+        "observed_survived": true,
+        "baseline_probability": 0.75,
+        "persona_probability": 0.75
+      },
+      {
+        "anchor_slot": 143,
+        "target_slot": 146,
+        "round": 12,
+        "player_id": "rw:5960",
+        "observed_survived": true,
+        "baseline_probability": 0.825,
+        "persona_probability": 0.75
+      },
+      {
+        "anchor_slot": 143,
+        "target_slot": 146,
+        "round": 12,
+        "player_id": "rw:6269",
+        "observed_survived": true,
+        "baseline_probability": 0.9083333333333333,
+        "persona_probability": 0.9083333333333333
+      },
+      {
+        "anchor_slot": 143,
+        "target_slot": 146,
+        "round": 12,
+        "player_id": "rw:5899",
+        "observed_survived": true,
+        "baseline_probability": 0.9166666666666666,
+        "persona_probability": 0.925
+      },
+      {
+        "anchor_slot": 143,
+        "target_slot": 146,
+        "round": 12,
+        "player_id": "rw:3577",
+        "observed_survived": true,
+        "baseline_probability": 0.9583333333333334,
+        "persona_probability": 0.9416666666666667
+      },
+      {
+        "anchor_slot": 143,
+        "target_slot": 146,
+        "round": 12,
+        "player_id": "rw:6289",
+        "observed_survived": true,
+        "baseline_probability": 0.9833333333333333,
+        "persona_probability": 0.9666666666666667
+      },
+      {
+        "anchor_slot": 143,
+        "target_slot": 146,
+        "round": 12,
+        "player_id": "rw:6567",
+        "observed_survived": true,
+        "baseline_probability": 0.9916666666666667,
+        "persona_probability": 0.975
+      },
+      {
+        "anchor_slot": 143,
+        "target_slot": 146,
+        "round": 12,
+        "player_id": "rw:4454",
+        "observed_survived": true,
+        "baseline_probability": 0.9916666666666667,
+        "persona_probability": 1.0
+      },
+      {
+        "anchor_slot": 143,
+        "target_slot": 146,
+        "round": 12,
+        "player_id": "rw:5337",
+        "observed_survived": true,
+        "baseline_probability": 1.0,
+        "persona_probability": 1.0
+      },
+      {
+        "anchor_slot": 144,
+        "target_slot": 145,
+        "round": 12,
+        "player_id": "rw:5668",
+        "observed_survived": true,
+        "baseline_probability": 1.0,
+        "persona_probability": 1.0
+      },
+      {
+        "anchor_slot": 144,
+        "target_slot": 145,
+        "round": 12,
+        "player_id": "rw:6592",
+        "observed_survived": true,
+        "baseline_probability": 1.0,
+        "persona_probability": 1.0
+      },
+      {
+        "anchor_slot": 144,
+        "target_slot": 145,
+        "round": 12,
+        "player_id": "rw:5960",
+        "observed_survived": true,
+        "baseline_probability": 1.0,
+        "persona_probability": 1.0
+      },
+      {
+        "anchor_slot": 144,
+        "target_slot": 145,
+        "round": 12,
+        "player_id": "rw:6269",
+        "observed_survived": true,
+        "baseline_probability": 1.0,
+        "persona_probability": 1.0
+      },
+      {
+        "anchor_slot": 144,
+        "target_slot": 145,
+        "round": 12,
+        "player_id": "rw:5899",
+        "observed_survived": true,
+        "baseline_probability": 1.0,
+        "persona_probability": 1.0
+      },
+      {
+        "anchor_slot": 144,
+        "target_slot": 145,
+        "round": 12,
+        "player_id": "rw:3577",
+        "observed_survived": true,
+        "baseline_probability": 1.0,
+        "persona_probability": 1.0
+      },
+      {
+        "anchor_slot": 144,
+        "target_slot": 145,
+        "round": 12,
+        "player_id": "rw:6289",
+        "observed_survived": true,
+        "baseline_probability": 1.0,
+        "persona_probability": 1.0
+      },
+      {
+        "anchor_slot": 144,
+        "target_slot": 145,
+        "round": 12,
+        "player_id": "rw:4808",
+        "observed_survived": true,
+        "baseline_probability": 1.0,
+        "persona_probability": 1.0
+      },
+      {
+        "anchor_slot": 144,
+        "target_slot": 145,
+        "round": 12,
+        "player_id": "rw:5927",
+        "observed_survived": true,
+        "baseline_probability": 1.0,
+        "persona_probability": 1.0
+      },
+      {
+        "anchor_slot": 144,
+        "target_slot": 145,
+        "round": 12,
+        "player_id": "rw:5338",
+        "observed_survived": true,
+        "baseline_probability": 1.0,
+        "persona_probability": 1.0
+      }
+    ],
+    "method": "Forward-round training; every eligible held-out choice anchors next-manager-live-pick forecasts. Fixed available-rank strata; actual current choice known, intervening choices simulated. Horizons crossing missing-ADP live picks censored.",
+    "limitations": "Few correlated horizons from one season; descriptive calibration, not evidence of transportability to 2026. Undrafted alternatives follow initial known-ADP order; historical eligibility/ADP-date uncertainty remains."
+  }
+}

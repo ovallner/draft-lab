@@ -1,0 +1,157 @@
+season,overall_pick,round,round_position,player,manager,team_name_2023,is_keeper,yahoo_adp,adp_delta,rotowire_player,rotowire_id,match_status
+2023-24,1,1,1,Luka Dončić,Shiven,Number 33,False,,,,,adp_unverified_duplicate_export
+2023-24,2,1,2,Stephen Curry,Ashley,YaTankScottie,False,,,,,adp_unverified_duplicate_export
+2023-24,3,1,3,Jayson Tatum,Addison,Spicy P,False,,,,,adp_unverified_duplicate_export
+2023-24,4,1,4,Giannis Antetokounmpo,Koo,Koo,False,,,,,adp_unverified_duplicate_export
+2023-24,5,1,5,Damian Lillard,Samet,Maxey hit the Markk,False,,,,,adp_unverified_duplicate_export
+2023-24,6,1,6,LaMelo Ball,Nick,Butler’s Ballstars,False,,,,,adp_unverified_duplicate_export
+2023-24,7,1,7,Anthony Davis,Austin,Through Thick and Thin,False,,,,,adp_unverified_duplicate_export
+2023-24,8,1,8,Domantas Sabonis,Oscar,I’m Shai & Gorgeous,False,,,,,adp_unverified_duplicate_export
+2023-24,9,1,9,Cade Cunningham,San,High-so Joe,True,,,,,adp_unverified_duplicate_export
+2023-24,10,1,10,Joel Embiid,Adam,Trust The Process Pt II,True,,,,,adp_unverified_duplicate_export
+2023-24,11,1,11,Trae Young,Jipples,Twin-kle Twin-kle Little Ball,False,,,,,adp_unverified_duplicate_export
+2023-24,12,1,12,Kyrie Irving,Raul,World B. Flat,False,,,,,adp_unverified_duplicate_export
+2023-24,13,2,1,Karl-Anthony Towns,Raul,World B. Flat,False,,,,,adp_unverified_duplicate_export
+2023-24,14,2,2,Devin Booker,Jipples,Twin-kle Twin-kle Little Ball,False,,,,,adp_unverified_duplicate_export
+2023-24,15,2,3,Victor Wembanyama,Adam,Trust The Process Pt II,False,,,,,adp_unverified_duplicate_export
+2023-24,16,2,4,De’Aaron Fox,San,High-so Joe,False,,,,,adp_unverified_duplicate_export
+2023-24,17,2,5,LeBron James,Oscar,I’m Shai & Gorgeous,False,,,,,adp_unverified_duplicate_export
+2023-24,18,2,6,Paul George,Austin,Through Thick and Thin,False,,,,,adp_unverified_duplicate_export
+2023-24,19,2,7,Jimmy Butler III,Nick,Butler’s Ballstars,False,,,,,adp_unverified_duplicate_export
+2023-24,20,2,8,Bam Adebayo,Samet,Maxey hit the Markk,False,,,,,adp_unverified_duplicate_export
+2023-24,21,2,9,Bradley Beal,Koo,Koo,True,,,,,adp_unverified_duplicate_export
+2023-24,22,2,10,Zion Williamson,Ashley,YaTankScottie,False,,,,,adp_unverified_duplicate_export
+2023-24,23,2,11,Scottie Barnes,Ashley,YaTankScottie,False,,,,,adp_unverified_duplicate_export
+2023-24,24,2,12,James Harden,Shiven,Number 33,False,,,,,adp_unverified_duplicate_export
+2023-24,25,3,1,Mikal Bridges,Shiven,Number 33,True,,,,,adp_unverified_duplicate_export
+2023-24,26,3,2,Dejounte Murray,Addison,Spicy P,False,,,,,adp_unverified_duplicate_export
+2023-24,27,3,3,Myles Turner,Addison,Spicy P,False,,,,,adp_unverified_duplicate_export
+2023-24,28,3,4,Jamal Murray,Koo,Koo,True,,,,,adp_unverified_duplicate_export
+2023-24,29,3,5,Deandre Ayton,Samet,Maxey hit the Markk,False,,,,,adp_unverified_duplicate_export
+2023-24,30,3,6,Kristaps Porziņģis,Nick,Butler’s Ballstars,False,,,,,adp_unverified_duplicate_export
+2023-24,31,3,7,Nikola Jokić,Austin,Through Thick and Thin,True,,,,,adp_unverified_duplicate_export
+2023-24,32,3,8,Evan Mobley,Oscar,I’m Shai & Gorgeous,False,,,,,adp_unverified_duplicate_export
+2023-24,33,3,9,Chet Holmgren,San,High-so Joe,False,,,,,adp_unverified_duplicate_export
+2023-24,34,3,10,Jordan Poole,Adam,Trust The Process Pt II,False,,,,,adp_unverified_duplicate_export
+2023-24,35,3,11,OG Anunoby,Jipples,Twin-kle Twin-kle Little Ball,False,,,,,adp_unverified_duplicate_export
+2023-24,36,3,12,Julius Randle,Raul,World B. Flat,False,,,,,adp_unverified_duplicate_export
+2023-24,37,4,1,Anfernee Simons,Raul,World B. Flat,False,,,,,adp_unverified_duplicate_export
+2023-24,38,4,2,Alperen Şengün,Jipples,Twin-kle Twin-kle Little Ball,False,,,,,adp_unverified_duplicate_export
+2023-24,39,4,3,Zach LaVine,Adam,Trust The Process Pt II,False,,,,,adp_unverified_duplicate_export
+2023-24,40,4,4,Keldon Johnson,San,High-so Joe,True,,,,,adp_unverified_duplicate_export
+2023-24,41,4,5,DeMar DeRozan,Oscar,I’m Shai & Gorgeous,False,,,,,adp_unverified_duplicate_export
+2023-24,42,4,6,Jrue Holiday,Austin,Through Thick and Thin,False,,,,,adp_unverified_duplicate_export
+2023-24,43,4,7,Kawhi Leonard,Nick,Butler’s Ballstars,True,,,,,adp_unverified_duplicate_export
+2023-24,44,4,8,Tyrese Maxey,Samet,Maxey hit the Markk,False,,,,,adp_unverified_duplicate_export
+2023-24,45,4,9,Josh Giddey,Koo,Koo,False,,,,,adp_unverified_duplicate_export
+2023-24,46,4,10,Jalen Williams,Addison,Spicy P,False,,,,,adp_unverified_duplicate_export
+2023-24,47,4,11,Paolo Banchero,Ashley,YaTankScottie,True,,,,,adp_unverified_duplicate_export
+2023-24,48,4,12,Franz Wagner,Shiven,Number 33,False,,,,,adp_unverified_duplicate_export
+2023-24,49,5,1,Fred VanVleet,Shiven,Number 33,True,,,,,adp_unverified_duplicate_export
+2023-24,50,5,2,Chris Paul,Ashley,YaTankScottie,False,,,,,adp_unverified_duplicate_export
+2023-24,51,5,3,Brandon Ingram,Addison,Spicy P,True,,,,,adp_unverified_duplicate_export
+2023-24,52,5,4,Tyler Herro,Koo,Koo,False,,,,,adp_unverified_duplicate_export
+2023-24,53,5,5,Lauri Markkanen,Samet,Maxey hit the Markk,True,,,,,adp_unverified_duplicate_export
+2023-24,54,5,6,Jarrett Allen,Nick,Butler’s Ballstars,False,,,,,adp_unverified_duplicate_export
+2023-24,55,5,7,Kevin Durant,Austin,Through Thick and Thin,True,,,,,adp_unverified_duplicate_export
+2023-24,56,5,8,Donovan Mitchell,Oscar,I’m Shai & Gorgeous,True,,,,,adp_unverified_duplicate_export
+2023-24,57,5,9,Jakob Poeltl,San,High-so Joe,False,,,,,adp_unverified_duplicate_export
+2023-24,58,5,10,Cameron Johnson,Adam,Trust The Process Pt II,False,,,,,adp_unverified_duplicate_export
+2023-24,59,5,11,Rudy Gobert,Jipples,Twin-kle Twin-kle Little Ball,False,,,,,adp_unverified_duplicate_export
+2023-24,60,5,12,Jaylen Brown,Raul,World B. Flat,True,,,,,adp_unverified_duplicate_export
+2023-24,61,6,1,Collin Sexton,Raul,World B. Flat,True,,,,,adp_unverified_duplicate_export
+2023-24,62,6,2,Marcus Smart,Jipples,Twin-kle Twin-kle Little Ball,False,,,,,adp_unverified_duplicate_export
+2023-24,63,6,3,Mark Williams,Adam,Trust The Process Pt II,False,,,,,adp_unverified_duplicate_export
+2023-24,64,6,4,Pascal Siakam,Addison,Spicy P,True,,,,,adp_unverified_duplicate_export
+2023-24,65,6,5,Shai Gilgeous-Alexander,Oscar,I’m Shai & Gorgeous,True,,,,,adp_unverified_duplicate_export
+2023-24,66,6,6,Onyeka Okongwu,Austin,Through Thick and Thin,False,,,,,adp_unverified_duplicate_export
+2023-24,67,6,7,Nikola Vučević,Nick,Butler’s Ballstars,False,,,,,adp_unverified_duplicate_export
+2023-24,68,6,8,Tyus Jones,Samet,Maxey hit the Markk,False,,,,,adp_unverified_duplicate_export
+2023-24,69,6,9,Jalen Green,Koo,Koo,False,,,,,adp_unverified_duplicate_export
+2023-24,70,6,10,Derrick White,Addison,Spicy P,False,,,,,adp_unverified_duplicate_export
+2023-24,71,6,11,Anthony Edwards,Ashley,YaTankScottie,True,,,,,adp_unverified_duplicate_export
+2023-24,72,6,12,Khris Middleton,Shiven,Number 33,False,,,,,adp_unverified_duplicate_export
+2023-24,73,7,1,Daniel Gafford,Shiven,Number 33,False,,,,,adp_unverified_duplicate_export
+2023-24,74,7,2,Jonathan Kuminga,Ashley,YaTankScottie,True,,,,,adp_unverified_duplicate_export
+2023-24,75,7,3,Buddy Hield,Addison,Spicy P,False,,,,,adp_unverified_duplicate_export
+2023-24,76,7,4,Brook Lopez,Koo,Koo,False,,,,,adp_unverified_duplicate_export
+2023-24,77,7,5,Jabari Smith Jr.,Samet,Maxey hit the Markk,False,,,,,adp_unverified_duplicate_export
+2023-24,78,7,6,Terry Rozier,Nick,Butler’s Ballstars,False,,,,,adp_unverified_duplicate_export
+2023-24,79,7,7,Jaren Jackson Jr.,Austin,Through Thick and Thin,True,,,,,adp_unverified_duplicate_export
+2023-24,80,7,8,Gary Trent Jr.,Oscar,I’m Shai & Gorgeous,False,,,,,adp_unverified_duplicate_export
+2023-24,81,7,9,Shaedon Sharpe,San,High-so Joe,False,,,,,adp_unverified_duplicate_export
+2023-24,82,7,10,Ja Morant,Adam,Trust The Process Pt II,False,,,,,adp_unverified_duplicate_export
+2023-24,83,7,11,Draymond Green,Jipples,Twin-kle Twin-kle Little Ball,False,,,,,adp_unverified_duplicate_export
+2023-24,84,7,12,Scoot Henderson,Raul,World B. Flat,False,,,,,adp_unverified_duplicate_export
+2023-24,85,8,1,Kyle Kuzma,Raul,World B. Flat,True,,,,,adp_unverified_duplicate_export
+2023-24,86,8,2,Ausar Thompson,Jipples,Twin-kle Twin-kle Little Ball,False,,,,,adp_unverified_duplicate_export
+2023-24,87,8,3,Markelle Fultz,Adam,Trust The Process Pt II,False,,,,,adp_unverified_duplicate_export
+2023-24,88,8,4,Wendell Carter Jr.,San,High-so Joe,False,,,,,adp_unverified_duplicate_export
+2023-24,89,8,5,Jonas Valančiūnas,Oscar,I’m Shai & Gorgeous,False,,,,,adp_unverified_duplicate_export
+2023-24,90,8,6,CJ McCollum,Austin,Through Thick and Thin,False,,,,,adp_unverified_duplicate_export
+2023-24,91,8,7,Jerami Grant,Nick,Butler’s Ballstars,False,,,,,adp_unverified_duplicate_export
+2023-24,92,8,8,Darius Garland,Samet,Maxey hit the Markk,True,,,,,adp_unverified_duplicate_export
+2023-24,93,8,9,Michael Porter Jr.,Koo,Koo,True,,,,,adp_unverified_duplicate_export
+2023-24,94,8,10,Austin Reaves,Addison,Spicy P,False,,,,,adp_unverified_duplicate_export
+2023-24,95,8,11,Clint Capela,Ashley,YaTankScottie,False,,,,,adp_unverified_duplicate_export
+2023-24,96,8,12,Tobias Harris,Shiven,Number 33,False,,,,,adp_unverified_duplicate_export
+2023-24,97,9,1,Brandon Miller,Shiven,Number 33,False,,,,,adp_unverified_duplicate_export
+2023-24,98,9,2,Andrew Wiggins,Ashley,YaTankScottie,False,,,,,adp_unverified_duplicate_export
+2023-24,99,9,3,Jordan Clarkson,San,High-so Joe,False,,,,,adp_unverified_duplicate_export
+2023-24,100,9,4,Mitchell Robinson,Koo,Koo,False,,,,,adp_unverified_duplicate_export
+2023-24,101,9,5,Zach Collins,Samet,Maxey hit the Markk,False,,,,,adp_unverified_duplicate_export
+2023-24,102,9,6,Klay Thompson,Nick,Butler’s Ballstars,True,,,,,adp_unverified_duplicate_export
+2023-24,103,9,7,D’Angelo Russell,Austin,Through Thick and Thin,False,,,,,adp_unverified_duplicate_export
+2023-24,104,9,8,Seth Curry,Oscar,I’m Shai & Gorgeous,False,,,,,adp_unverified_duplicate_export
+2023-24,105,9,9,Jalen Brunson,San,High-so Joe,True,,,,,adp_unverified_duplicate_export
+2023-24,106,9,10,Devin Vassell,Adam,Trust The Process Pt II,True,,,,,adp_unverified_duplicate_export
+2023-24,107,9,11,Jusuf Nurkić,Raul,World B. Flat,False,,,,,adp_unverified_duplicate_export
+2023-24,108,9,12,Ben Simmons,Raul,World B. Flat,False,,,,,adp_unverified_duplicate_export
+2023-24,109,10,1,Amen Thompson,Jipples,Twin-kle Twin-kle Little Ball,False,,,,,adp_unverified_duplicate_export
+2023-24,110,10,2,Walker Kessler,Jipples,Twin-kle Twin-kle Little Ball,True,,,,,adp_unverified_duplicate_export
+2023-24,111,10,3,Jalen Duren,Adam,Trust The Process Pt II,True,,,,,adp_unverified_duplicate_export
+2023-24,112,10,4,Aaron Gordon,San,High-so Joe,False,,,,,adp_unverified_duplicate_export
+2023-24,113,10,5,Bruce Brown,Oscar,I’m Shai & Gorgeous,False,,,,,adp_unverified_duplicate_export
+2023-24,114,10,6,John Collins,Austin,Through Thick and Thin,False,,,,,adp_unverified_duplicate_export
+2023-24,115,10,7,Tre Jones,Nick,Butler’s Ballstars,False,,,,,adp_unverified_duplicate_export
+2023-24,116,10,8,Coby White,Samet,Maxey hit the Markk,False,,,,,adp_unverified_duplicate_export
+2023-24,117,10,9,Russell Westbrook,Koo,Koo,False,,,,,adp_unverified_duplicate_export
+2023-24,118,10,10,Nic Claxton,Addison,Spicy P,True,,,,,adp_unverified_duplicate_export
+2023-24,119,10,11,Robert Williams III,Ashley,YaTankScottie,False,,,,,adp_unverified_duplicate_export
+2023-24,120,10,12,Tyrese Haliburton,Shiven,Number 33,True,,,,,adp_unverified_duplicate_export
+2023-24,121,11,1,Ivica Zubac,Shiven,Number 33,False,,,,,adp_unverified_duplicate_export
+2023-24,122,11,2,Jaden McDaniels,Ashley,YaTankScottie,False,,,,,adp_unverified_duplicate_export
+2023-24,123,11,3,Keegan Murray,Addison,Spicy P,False,,,,,adp_unverified_duplicate_export
+2023-24,124,11,4,Obi Toppin,Koo,Koo,False,,,,,adp_unverified_duplicate_export
+2023-24,125,11,5,Desmond Bane,Samet,Maxey hit the Markk,True,,,,,adp_unverified_duplicate_export
+2023-24,126,11,6,Spencer Dinwiddie,Nick,Butler’s Ballstars,True,,,,,adp_unverified_duplicate_export
+2023-24,127,11,7,Dereck Lively II,Austin,Through Thick and Thin,False,,,,,adp_unverified_duplicate_export
+2023-24,128,11,8,Bennedict Mathurin,Oscar,I’m Shai & Gorgeous,True,,,,,adp_unverified_duplicate_export
+2023-24,129,11,9,Cam Thomas,San,High-so Joe,False,,,,,adp_unverified_duplicate_export
+2023-24,130,11,10,P.J. Washington,Adam,Trust The Process Pt II,False,,,,,adp_unverified_duplicate_export
+2023-24,131,11,11,Herbert Jones,Jipples,Twin-kle Twin-kle Little Ball,False,,,,,adp_unverified_duplicate_export
+2023-24,132,11,12,Josh Hart,Raul,World B. Flat,False,,,,,adp_unverified_duplicate_export
+2023-24,133,12,1,Dillon Brooks,Raul,World B. Flat,False,,,,,adp_unverified_duplicate_export
+2023-24,134,12,2,Jeremy Sochan,Jipples,Twin-kle Twin-kle Little Ball,False,,,,,adp_unverified_duplicate_export
+2023-24,135,12,3,Dennis Schröder,Adam,Trust The Process Pt II,False,,,,,adp_unverified_duplicate_export
+2023-24,136,12,4,Gordon Hayward,San,High-so Joe,False,,,,,adp_unverified_duplicate_export
+2023-24,137,12,5,De’Anthony Melton,Oscar,I’m Shai & Gorgeous,False,,,,,adp_unverified_duplicate_export
+2023-24,138,12,6,Kevin Huerter,Austin,Through Thick and Thin,False,,,,,adp_unverified_duplicate_export
+2023-24,139,12,7,Bobby Portis Jr.,Nick,Butler’s Ballstars,False,,,,,adp_unverified_duplicate_export
+2023-24,140,12,8,Trey Murphy III,Samet,Maxey hit the Markk,False,,,,,adp_unverified_duplicate_export
+2023-24,141,12,9,Saddiq Bey,Koo,Koo,False,,,,,adp_unverified_duplicate_export
+2023-24,142,12,10,Quentin Grimes,Addison,Spicy P,False,,,,,adp_unverified_duplicate_export
+2023-24,143,12,11,Bojan Bogdanović,Ashley,YaTankScottie,False,,,,,adp_unverified_duplicate_export
+2023-24,144,12,12,Malcolm Brogdon,Shiven,Number 33,False,,,,,adp_unverified_duplicate_export
+2023-24,145,13,1,Keyonte George,Shiven,Number 33,False,,,,,adp_unverified_duplicate_export
+2023-24,146,13,2,Kyle Lowry,Ashley,YaTankScottie,False,,,,,adp_unverified_duplicate_export
+2023-24,147,13,3,Jaden Ivey,Addison,Spicy P,False,,,,,adp_unverified_duplicate_export
+2023-24,148,13,4,Norman Powell,Koo,Koo,False,,,,,adp_unverified_duplicate_export
+2023-24,149,13,5,Xavier Tillman,Samet,Maxey hit the Markk,False,,,,,adp_unverified_duplicate_export
+2023-24,150,13,6,Kyle Anderson,Nick,Butler’s Ballstars,False,,,,,adp_unverified_duplicate_export
+2023-24,151,13,7,RJ Barrett,Austin,Through Thick and Thin,False,,,,,adp_unverified_duplicate_export
+2023-24,152,13,8,Tim Hardaway Jr.,Oscar,I’m Shai & Gorgeous,False,,,,,adp_unverified_duplicate_export
+2023-24,153,13,9,Marvin Bagley III,San,High-so Joe,False,,,,,adp_unverified_duplicate_export
+2023-24,154,13,10,Bilal Coulibaly,Adam,Trust The Process Pt II,False,,,,,adp_unverified_duplicate_export
+2023-24,155,13,11,Kevon Looney,Jipples,Twin-kle Twin-kle Little Ball,False,,,,,adp_unverified_duplicate_export
+2023-24,156,13,12,Santi Aldama,Raul,World B. Flat,False,,,,,adp_unverified_duplicate_export

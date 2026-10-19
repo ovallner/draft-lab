@@ -1,0 +1,21 @@
+# Local runtime state, databases, backups and large generated research artifacts.
+# These are machine-specific and can be very large (draft DBs, saved mocks,
+# benchmark/audit outputs, screenshots, backups). They are not source code.
+local/
+
+# OS / editor noise
+.DS_Store
+*.swp
+*~
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# SQLite databases (normally under local/)
+*.sqlite3
+*.sqlite3-shm
+*.sqlite3-wal

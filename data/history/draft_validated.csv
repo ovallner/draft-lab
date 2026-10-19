@@ -1,0 +1,157 @@
+season,round,selection_within_round,overall_pick,player,drafting_team,keeper_marked_on_yahoo,source,manager,player_id,nba_id,is_keeper,original_snake_owner,ownership_departure,yahoo_adp,age_2025_10_01,rookie_2025,draft_year,discretionary_index,known_adp_index,raw_deviation,keeper_adjusted_deviation,available_rank,available_percentile,adp_gap_to_best,available_known_count
+2025-26,1,1,1,Victor Wembanyama,Set the Bar,no,user_screenshots_2025_draft,Addison,rw:5809,1641705,False,Addison,False,2.4,21,False,2023,1,1,-1.4,0,1,0.0,0.0,166
+2025-26,1,2,2,Luka Doncic,Murray-Culous,no,user_screenshots_2025_draft,San,rw:4396,1629029,False,San,False,4.0,26,False,2018,2,2,-2.0,0,1,0.0,0.0,165
+2025-26,1,3,3,Cade Cunningham,Number 33,no,user_screenshots_2025_draft,Shiven,rw:5336,1630595,False,Shiven,False,6.9,24,False,2021,3,3,-3.9000000000000004,-1,2,0.006134969325153374,2.4000000000000004,164
+2025-26,1,4,4,Giannis Antetokounmpo,Maxey hit the Markk,no,user_screenshots_2025_draft,Samet,rw:3456,203507,False,Samet,False,4.5,30,False,2013,4,4,-0.5,1,1,0.0,0.0,163
+2025-26,1,5,5,Devin Booker,Next Chosen One,no,user_screenshots_2025_draft,Adam,rw:3711,1626164,False,Adam,False,10.6,28,False,2015,5,5,-5.6,-1,2,0.006211180124223602,0.5,162
+2025-26,1,6,6,Anthony Davis,Livin' Avdija Loca,no,user_screenshots_2025_draft,Raul,rw:3297,203076,False,Raul,False,10.1,32,False,2012,6,6,-4.1,1,1,0.0,0.0,161
+2025-26,1,7,7,James Harden,Team Stable Knees v2,no,user_screenshots_2025_draft,Nick,rw:3018,201935,False,Nick,False,14.6,36,False,2009,7,7,-7.6,-3,4,0.018867924528301886,2.1999999999999993,160
+2025-26,1,8,8,Jalen Williams,Huevos Bancheros,yes,user_screenshots_2025_draft,Ashley,rw:5687,1631114,True,Ashley,False,27.9,24,False,2022,,,,,,,,
+2025-26,1,9,9,Karl-Anthony Towns,Live Laugh LeBron,no,user_screenshots_2025_draft,Oscar,rw:3741,1626157,False,Oscar,False,12.4,29,False,2015,8,8,-3.4000000000000004,1,1,0.0,0.0,159
+2025-26,1,10,10,Nikola Jokic,It's Donkey Time,yes,user_screenshots_2025_draft,Austin,rw:3612,203999,True,Austin,False,1.5,30,False,2014,,,,,,,,
+2025-26,1,11,11,Evan Mobley,2026-2027,no,user_screenshots_2025_draft,Jipples,rw:5355,1630596,False,Jipples,False,20.4,24,False,2021,9,9,-9.399999999999999,-5,6,0.03184713375796178,7.199999999999999,158
+2025-26,1,12,12,Trae Young,Koo,no,user_screenshots_2025_draft,Koo,rw:4369,1629027,False,Koo,False,13.2,27,False,2018,10,10,-1.1999999999999993,2,1,0.0,0.0,157
+2025-26,2,1,13,Tyrese Maxey,Koo,no,user_screenshots_2025_draft,Koo,rw:5158,1630178,False,Koo,False,16.2,24,False,2020,11,11,-3.1999999999999993,0,2,0.0064516129032258064,1.799999999999999,156
+2025-26,2,2,14,Scottie Barnes,2026-2027,no,user_screenshots_2025_draft,Jipples,rw:5390,1630567,False,Jipples,False,24.7,24,False,2021,12,12,-10.7,-3,4,0.01948051948051948,10.299999999999999,155
+2025-26,2,3,15,Stephen Curry,It's Donkey Time,no,user_screenshots_2025_draft,Austin,rw:3014,201939,False,Austin,False,14.4,37,False,2009,13,13,0.5999999999999996,4,1,0.0,0.0,154
+2025-26,2,4,16,LeBron James,Live Laugh LeBron,no,user_screenshots_2025_draft,Oscar,rw:2344,2544,False,Oscar,False,29.3,40,False,2003,14,14,-13.3,-6,7,0.039473684210526314,12.0,153
+2025-26,2,5,17,Paolo Banchero,Huevos Bancheros,yes,user_screenshots_2025_draft,Ashley,rw:5700,1631094,True,Ashley,False,27.3,22,False,2022,,,,,,,,
+2025-26,2,6,18,Domantas Sabonis,Team Stable Knees v2,no,user_screenshots_2025_draft,Nick,rw:3865,1627734,False,Nick,False,18.2,29,False,2016,15,15,-0.1999999999999993,2,2,0.006622516556291391,0.8999999999999986,152
+2025-26,2,7,19,Pascal Siakam,Livin' Avdija Loca,no,user_screenshots_2025_draft,Raul,rw:3922,1627783,False,Raul,False,28.4,31,False,2016,16,16,-9.399999999999999,-3,5,0.02666666666666667,11.099999999999998,151
+2025-26,2,8,20,Alperen Sengun,Next Chosen One,no,user_screenshots_2025_draft,Adam,rw:5404,1630578,False,Adam,False,17.3,23,False,2021,17,17,2.6999999999999993,5,1,0.0,0.0,150
+2025-26,2,9,21,LaMelo Ball,Maxey hit the Markk,no,user_screenshots_2025_draft,Samet,rw:5151,1630163,False,Samet,False,25.3,24,False,2020,18,18,-4.300000000000001,2,1,0.0,0.0,149
+2025-26,2,10,22,Chet Holmgren,Number 33,no,user_screenshots_2025_draft,Shiven,rw:5697,1631096,False,Shiven,False,27.1,23,False,2022,19,19,-5.100000000000001,2,1,0.0,0.0,148
+2025-26,2,11,23,Myles Turner,Murray-Culous,no,user_screenshots_2025_draft,San,rw:3725,1626167,False,San,False,53.6,29,False,2015,20,20,-30.6,-14,15,0.0958904109589041,25.8,147
+2025-26,2,12,24,Bam Adebayo,Set the Bar,no,user_screenshots_2025_draft,Addison,rw:4153,1628389,False,Addison,False,31.5,28,False,2017,21,21,-7.5,0,2,0.006896551724137931,3.6999999999999993,146
+2025-26,3,1,25,Franz Wagner,Set the Bar,no,user_screenshots_2025_draft,Addison,rw:5370,1630532,False,Addison,False,36.1,24,False,2021,22,22,-11.100000000000001,-1,3,0.013888888888888888,8.3,145
+2025-26,3,2,26,Jamal Murray,Murray-Culous,no,user_screenshots_2025_draft,San,rw:3882,1627750,False,San,False,34.9,28,False,2016,23,23,-8.899999999999999,1,2,0.006993006993006993,7.099999999999998,144
+2025-26,3,3,27,Jaren Jackson Jr.,Number 33,no,user_screenshots_2025_draft,Shiven,rw:4384,1628991,False,Shiven,False,38.5,26,False,2018,24,24,-11.5,0,2,0.007042253521126761,10.7,143
+2025-26,3,4,28,Josh Giddey,Maxey hit the Markk,no,user_screenshots_2025_draft,Samet,rw:5366,1630581,False,Samet,False,27.8,22,False,2021,25,25,0.1999999999999993,7,1,0.0,0.0,142
+2025-26,3,5,29,Cooper Flagg,Next Chosen One,no,user_screenshots_2025_draft,Adam,rw:6548,1642843,False,Adam,False,42.3,18,True,2025,26,26,-13.299999999999997,-1,3,0.014285714285714285,3.299999999999997,141
+2025-26,3,6,30,Jaylen Brown,Livin' Avdija Loca,yes,user_screenshots_2025_draft,Raul,rw:3894,1627759,True,Raul,False,25.6,28,False,2016,,,,,,,,
+2025-26,3,7,31,Joel Embiid,Team Stable Knees v2,no,user_screenshots_2025_draft,Nick,rw:3572,203954,False,Nick,False,47.2,31,False,2014,27,27,-16.200000000000003,-3,5,0.02877697841726619,8.200000000000003,140
+2025-26,3,8,32,Lauri Markkanen,Huevos Bancheros,no,user_screenshots_2025_draft,Ashley,rw:4119,1628374,False,Ashley,False,52.4,28,False,2017,28,28,-20.4,-4,6,0.036231884057971016,13.399999999999999,139
+2025-26,3,9,33,Donovan Mitchell,Live Laugh LeBron,yes,user_screenshots_2025_draft,Oscar,rw:4166,1628378,True,Oscar,False,17.5,29,False,2017,,,,,,,,
+2025-26,3,10,34,Kevin Durant,It's Donkey Time,yes,user_screenshots_2025_draft,Austin,rw:2811,201142,True,Austin,False,16.0,37,False,2007,,,,,,,,
+2025-26,3,11,35,De'Aaron Fox,2026-2027,no,user_screenshots_2025_draft,Jipples,rw:4116,1628368,False,Jipples,False,39.0,27,False,2017,29,29,-4.0,4,1,0.0,0.0,138
+2025-26,3,12,36,Nikola Vucevic,Koo,no,user_screenshots_2025_draft,Koo,rw:3212,202696,False,Koo,False,53.0,34,False,2011,30,30,-17.0,-3,5,0.029411764705882353,13.700000000000003,137
+2025-26,4,1,37,Miles Bridges,Koo,no,user_screenshots_2025_draft,Koo,rw:4383,1628970,False,Koo,False,57.9,27,False,2018,31,31,-20.9,-5,6,0.037037037037037035,18.6,136
+2025-26,4,2,38,Jayson Tatum,2026-2027,no,user_screenshots_2025_draft,Jipples,rw:4108,1628369,False,Jipples,False,108.5,27,False,2017,32,32,-70.5,-52,53,0.3880597014925373,69.2,135
+2025-26,4,3,39,Zion Williamson,It's Donkey Time,no,user_screenshots_2025_draft,Austin,rw:4777,1629627,False,Austin,False,39.3,25,False,2019,33,33,-0.29999999999999716,7,1,0.0,0.0,134
+2025-26,4,4,40,Shai Gilgeous-Alexander,Live Laugh LeBron,yes,user_screenshots_2025_draft,Oscar,rw:4387,1628983,True,Oscar,False,3.7,27,False,2018,,,,,,,,
+2025-26,4,5,41,Anthony Edwards,Huevos Bancheros,yes,user_screenshots_2025_draft,Ashley,rw:5110,1630162,True,Ashley,False,7.2,24,False,2020,,,,,,,,
+2025-26,4,6,42,Darius Garland,Team Stable Knees v2,no,user_screenshots_2025_draft,Nick,rw:4749,1629636,False,Nick,False,65.7,25,False,2019,34,34,-23.700000000000003,-9,11,0.07575757575757576,21.200000000000003,133
+2025-26,4,7,43,Coby White,Livin' Avdija Loca,no,user_screenshots_2025_draft,Raul,rw:4801,1629632,False,Raul,False,66.1,25,False,2019,35,35,-23.099999999999994,-9,11,0.07633587786259542,21.599999999999994,132
+2025-26,4,8,44,Brandon Ingram,Next Chosen One,no,user_screenshots_2025_draft,Adam,rw:3861,1627742,False,Adam,False,61.1,28,False,2016,36,36,-17.1,-4,8,0.05384615384615385,16.6,131
+2025-26,4,9,45,Rudy Gobert,Maxey hit the Markk,no,user_screenshots_2025_draft,Samet,rw:3440,203497,False,Samet,False,71.5,33,False,2013,37,37,-26.5,-11,13,0.09302325581395349,27.0,130
+2025-26,4,10,46,Kawhi Leonard,Number 33,no,user_screenshots_2025_draft,Shiven,rw:3195,202695,False,Shiven,False,44.5,34,False,2011,38,38,1.5,10,1,0.0,0.0,129
+2025-26,4,11,47,Jimmy Butler III,Set the Bar,no,user_screenshots_2025_draft,Addison,rw:3231,202710,False,San,True,45.8,36,False,2011,39,39,1.2000000000000028,10,1,0.0,0.0,128
+2025-26,4,12,48,Derrick White,Set the Bar,yes,user_screenshots_2025_draft,Addison,rw:4195,1628401,True,Addison,False,37.0,31,False,2017,,,,,,,,
+2025-26,5,1,49,Zach LaVine,Set the Bar,no,user_screenshots_2025_draft,Addison,rw:3597,203897,False,Addison,False,61.2,30,False,2014,40,40,-12.200000000000003,-1,6,0.03968253968253968,8.900000000000006,127
+2025-26,5,2,50,Jarrett Allen,Murray-Culous,no,user_screenshots_2025_draft,San,rw:4122,1628386,False,San,False,61.4,27,False,2017,41,41,-11.399999999999999,-1,6,0.04,9.100000000000001,126
+2025-26,5,3,51,Trey Murphy III,Number 33,yes,user_screenshots_2025_draft,Shiven,rw:5401,1630530,True,Shiven,False,42.3,25,False,2021,,,,,,,,
+2025-26,5,4,52,Isaiah Hartenstein,Maxey hit the Markk,no,user_screenshots_2025_draft,Samet,rw:4147,1628392,False,Samet,False,76.2,27,False,2017,42,42,-24.200000000000003,-8,10,0.07258064516129033,23.900000000000006,125
+2025-26,5,5,53,Ja Morant,Next Chosen One,yes,user_screenshots_2025_draft,Adam,rw:4761,1629630,True,Adam,False,42.7,26,False,2019,,,,,,,,
+2025-26,5,6,54,OG Anunoby,Livin' Avdija Loca,yes,user_screenshots_2025_draft,Raul,rw:4121,1628384,True,Raul,False,71.5,28,False,2017,,,,,,,,
+2025-26,5,7,55,Julius Randle,Team Stable Knees v2,no,user_screenshots_2025_draft,Nick,rw:3574,203944,False,Nick,False,60.7,30,False,2014,43,43,-5.700000000000003,5,4,0.024390243902439025,8.400000000000006,124
+2025-26,5,8,56,Brandon Miller,Huevos Bancheros,no,user_screenshots_2025_draft,Ashley,rw:5896,1641706,False,Ashley,False,54.2,22,False,2023,44,44,1.7999999999999972,9,2,0.00819672131147541,1.9000000000000057,123
+2025-26,5,9,57,Kristaps Porzingis,Live Laugh LeBron,no,user_screenshots_2025_draft,Oscar,rw:3669,204001,False,Oscar,False,52.3,30,False,2015,45,45,4.700000000000003,14,1,0.0,0.0,122
+2025-26,5,10,58,Andrew Nembhard,It's Donkey Time,no,user_screenshots_2025_draft,Austin,rw:5679,1629614,False,Austin,False,76.4,25,False,2022,46,46,-18.400000000000006,-5,7,0.05,16.700000000000003,121
+2025-26,5,11,59,Walker Kessler,2026-2027,no,user_screenshots_2025_draft,Jipples,rw:5644,1631117,False,Jipples,False,60.9,24,False,2022,47,47,-1.8999999999999986,8,2,0.008403361344537815,1.1999999999999957,120
+2025-26,5,12,60,Onyeka Okongwu,Koo,no,user_screenshots_2025_draft,Koo,rw:5118,1630168,False,Koo,False,98.8,24,False,2020,48,48,-38.8,-19,21,0.1694915254237288,39.099999999999994,119
+2025-26,6,1,61,Kyrie Irving,Koo,no,user_screenshots_2025_draft,Koo,rw:3186,202681,False,Koo,False,,33,False,2011,49,,,,,,,
+2025-26,6,2,62,Jalen Suggs,2026-2027,no,user_screenshots_2025_draft,Jipples,rw:5379,1630591,False,Jipples,False,103.1,24,False,2021,50,49,-41.099999999999994,-26,28,0.23076923076923078,43.39999999999999,118
+2025-26,6,3,63,Ivica Zubac,It's Donkey Time,yes,user_screenshots_2025_draft,Austin,rw:3888,1627826,True,Austin,False,41.6,28,False,2016,,,,,,,,
+2025-26,6,4,64,Deandre Ayton,Live Laugh LeBron,no,user_screenshots_2025_draft,Oscar,rw:4372,1629028,False,Oscar,False,68.8,27,False,2018,51,50,-4.799999999999997,5,2,0.008620689655172414,9.099999999999994,117
+2025-26,6,5,65,Kel'el Ware,Huevos Bancheros,no,user_screenshots_2025_draft,Ashley,rw:6275,1642276,False,Ashley,False,93.1,21,False,2024,52,51,-28.099999999999994,-10,14,0.11304347826086956,33.39999999999999,116
+2025-26,6,6,66,Jordan Poole,Team Stable Knees v2,no,user_screenshots_2025_draft,Nick,rw:4791,1629673,False,Nick,False,74.0,26,False,2019,53,52,-8.0,3,4,0.02631578947368421,14.299999999999997,115
+2025-26,6,7,67,Mikal Bridges,Livin' Avdija Loca,no,user_screenshots_2025_draft,Raul,rw:4386,1628969,False,Raul,False,79.8,29,False,2018,54,53,-12.799999999999997,0,5,0.035398230088495575,20.099999999999994,114
+2025-26,6,8,68,Mark Williams,Next Chosen One,no,user_screenshots_2025_draft,Adam,rw:5647,1631109,False,Adam,False,86.1,23,False,2022,55,54,-18.099999999999994,-3,8,0.0625,26.39999999999999,113
+2025-26,6,9,69,Tyler Herro,Maxey hit the Markk,no,user_screenshots_2025_draft,Samet,rw:4780,1629639,False,Samet,False,70.8,25,False,2019,56,55,-1.7999999999999972,8,3,0.018018018018018018,11.099999999999994,112
+2025-26,6,10,70,Matas Buzelis,Number 33,no,user_screenshots_2025_draft,Shiven,rw:5938,1641824,False,Shiven,False,86.8,20,False,2024,57,56,-16.799999999999997,-2,7,0.05454545454545454,27.099999999999994,111
+2025-26,6,11,71,Jakob Poeltl,Murray-Culous,yes,user_screenshots_2025_draft,San,rw:3870,1627751,True,San,False,83.6,29,False,2016,,,,,,,,
+2025-26,6,12,72,Michael Porter Jr.,Set the Bar,no,user_screenshots_2025_draft,Addison,rw:4375,1629008,False,Addison,False,70.5,27,False,2018,58,57,1.5,11,2,0.009174311926605505,10.799999999999997,110
+2025-26,7,1,73,Austin Reaves,Set the Bar,yes,user_screenshots_2025_draft,Addison,rw:5334,1630559,True,Addison,False,43.2,27,False,Undrafted,,,,,,,,
+2025-26,7,2,74,Jalen Brunson,Murray-Culous,yes,user_screenshots_2025_draft,San,rw:4405,1628973,True,San,False,20.7,29,False,2018,,,,,,,,
+2025-26,7,3,75,Cason Wallace,Number 33,no,user_screenshots_2025_draft,Shiven,rw:5898,1641717,False,Shiven,False,119.8,21,False,2023,59,58,-44.8,-62,63,0.5740740740740741,60.099999999999994,109
+2025-26,7,4,76,Shaedon Sharpe,Maxey hit the Markk,no,user_screenshots_2025_draft,Samet,rw:5693,1631101,False,Samet,False,83.4,22,False,2022,60,59,-7.400000000000006,4,4,0.028037383177570093,23.700000000000003,108
+2025-26,7,5,77,Dejounte Murray,Next Chosen One,no,user_screenshots_2025_draft,Adam,rw:3856,1627749,False,Adam,False,123.5,29,False,2016,61,60,-46.5,-79,80,0.7452830188679245,63.8,107
+2025-26,7,6,78,Jaden Ivey,Livin' Avdija Loca,no,user_screenshots_2025_draft,Raul,rw:5696,1631093,False,Raul,False,111.9,23,False,2022,62,61,-33.900000000000006,-29,32,0.29523809523809524,52.2,106
+2025-26,7,7,79,Anfernee Simons,Team Stable Knees v2,yes,user_screenshots_2025_draft,Nick,rw:4373,1629014,True,Nick,False,89.7,26,False,2018,,,,,,,,
+2025-26,7,8,80,Cameron Johnson,Huevos Bancheros,no,user_screenshots_2025_draft,Ashley,rw:4916,1629661,False,Ashley,False,95.6,29,False,2019,63,62,-15.599999999999994,-2,9,0.07692307692307693,35.89999999999999,105
+2025-26,7,9,81,Christian Braun,Live Laugh LeBron,no,user_screenshots_2025_draft,Oscar,rw:5710,1631128,False,Oscar,False,90.5,24,False,2022,64,63,-9.5,3,6,0.04854368932038835,30.799999999999997,104
+2025-26,7,10,82,John Collins,It's Donkey Time,no,user_screenshots_2025_draft,Austin,rw:4159,1628381,False,Austin,False,94.4,28,False,2017,65,64,-12.400000000000006,1,7,0.058823529411764705,34.7,103
+2025-26,7,11,83,Donovan Clingan,2026-2027,no,user_screenshots_2025_draft,Jipples,rw:6254,1642270,False,Jipples,False,89.6,21,False,2024,66,65,-6.599999999999994,6,5,0.039603960396039604,29.89999999999999,102
+2025-26,7,12,84,Jalen Green,Koo,yes,user_screenshots_2025_draft,Koo,rw:5230,1630224,True,Koo,False,76.3,23,False,2021,,,,,,,,
+2025-26,8,1,85,Naz Reid,Koo,no,user_screenshots_2025_draft,Koo,rw:4806,1629675,False,Koo,False,97.6,26,False,Undrafted,67,66,-12.599999999999994,0,7,0.06,37.89999999999999,101
+2025-26,8,2,86,Amen Thompson,2026-2027,yes,user_screenshots_2025_draft,Jipples,rw:5931,1641708,True,Jipples,False,22.5,22,False,2023,,,,,,,,
+2025-26,8,3,87,Draymond Green,It's Donkey Time,no,user_screenshots_2025_draft,Austin,rw:3299,203110,False,Austin,False,100.4,35,False,2012,68,67,-13.400000000000006,-2,8,0.0707070707070707,40.7,100
+2025-26,8,4,88,DeMar DeRozan,Live Laugh LeBron,no,user_screenshots_2025_draft,Oscar,rw:3019,201942,False,Oscar,False,59.7,36,False,2009,69,68,28.299999999999997,31,1,0.0,0.0,99
+2025-26,8,5,89,Norman Powell,Huevos Bancheros,no,user_screenshots_2025_draft,Ashley,rw:3726,1626181,False,Ashley,False,85.6,32,False,2015,70,69,3.4000000000000057,13,3,0.020618556701030927,6.299999999999997,98
+2025-26,8,6,90,Paul George,Team Stable Knees v2,no,user_screenshots_2025_draft,Nick,rw:3114,202331,False,Nick,False,79.3,35,False,2010,71,70,10.700000000000003,18,1,0.0,0.0,97
+2025-26,8,7,91,CJ McCollum,Livin' Avdija Loca,no,user_screenshots_2025_draft,Raul,rw:3437,203468,False,Raul,False,101.6,34,False,2013,72,71,-10.599999999999994,0,6,0.05263157894736842,18.299999999999997,96
+2025-26,8,8,92,Jalen Duren,Next Chosen One,yes,user_screenshots_2025_draft,Adam,rw:5703,1631105,True,Adam,False,56.4,21,False,2022,,,,,,,,
+2025-26,8,9,93,Devin Vassell,Set the Bar,no,user_screenshots_2025_draft,Addison,rw:5113,1630170,False,Samet,True,98.8,25,False,2020,73,72,-5.799999999999997,5,4,0.031914893617021274,15.5,95
+2025-26,8,10,94,Tyrese Haliburton,Number 33,yes,user_screenshots_2025_draft,Shiven,rw:5114,1630169,True,Shiven,False,,25,False,2020,,,,,,,,
+2025-26,8,11,95,Alex Caruso,Murray-Culous,no,user_screenshots_2025_draft,San,rw:3952,1627936,False,San,False,115.0,31,False,Undrafted,74,73,-20.0,-25,28,0.2903225806451613,31.700000000000003,94
+2025-26,8,12,96,P.J. Washington,Murray-Culous,no,user_screenshots_2025_draft,San,rw:4781,1629023,False,Addison,True,121.0,27,False,2019,75,74,-25.0,-51,53,0.5652173913043478,37.7,93
+2025-26,9,1,97,Jalen Johnson,Maxey hit the Markk,yes,user_screenshots_2025_draft,Samet,rw:5329,1630552,True,Addison,True,23.4,23,False,2021,,,,,,,,
+2025-26,9,2,98,Bradley Beal,Murray-Culous,no,user_screenshots_2025_draft,San,rw:3303,203078,False,San,False,,32,False,2012,76,,,,,,,
+2025-26,9,3,99,Neemias Queta,Number 33,no,user_screenshots_2025_draft,Shiven,rw:5333,1629674,False,Shiven,False,126.0,26,False,2021,77,75,-27.0,-75,76,0.8241758241758241,42.7,92
+2025-26,9,4,100,Desmond Bane,Maxey hit the Markk,yes,user_screenshots_2025_draft,Samet,rw:5159,1630217,True,Samet,False,46.4,27,False,2020,,,,,,,,
+2025-26,9,5,101,Donte DiVincenzo,Next Chosen One,no,user_screenshots_2025_draft,Adam,rw:4439,1628978,False,Adam,False,119.7,28,False,2018,78,76,-18.700000000000003,-42,47,0.5111111111111111,36.400000000000006,91
+2025-26,9,6,102,Deni Avdija,Livin' Avdija Loca,yes,user_screenshots_2025_draft,Raul,rw:5152,1630166,True,Raul,False,46.9,24,False,2020,,,,,,,,
+2025-26,9,7,103,RJ Barrett,Team Stable Knees v2,yes,user_screenshots_2025_draft,Nick,rw:4767,1629628,True,Nick,False,87.5,25,False,2019,,,,,,,,
+2025-26,9,8,104,Reed Sheppard,Huevos Bancheros,no,user_screenshots_2025_draft,Ashley,rw:6257,1642263,False,Ashley,False,113.0,21,False,2024,79,77,-9.0,-16,23,0.24719101123595505,29.700000000000003,90
+2025-26,9,9,105,Dereck Lively II,Live Laugh LeBron,yes,user_screenshots_2025_draft,Oscar,rw:5904,1641726,True,Oscar,False,107.2,21,False,2023,,,,,,,,
+2025-26,9,10,106,Brook Lopez,It's Donkey Time,no,user_screenshots_2025_draft,Austin,rw:2918,201572,False,Austin,False,123.8,37,False,2008,80,78,-17.799999999999997,-63,65,0.7272727272727273,40.5,89
+2025-26,9,11,107,Zach Edey,Huevos Bancheros,no,user_screenshots_2025_draft,Ashley,rw:6263,1641744,False,Jipples,True,117.5,23,False,2024,81,79,-10.5,-33,40,0.4482758620689655,34.2,88
+2025-26,9,12,108,Immanuel Quickley,Koo,yes,user_screenshots_2025_draft,Koo,rw:5201,1630193,True,Koo,False,73.4,26,False,2020,,,,,,,,
+2025-26,10,1,109,Bennedict Mathurin,Koo,yes,user_screenshots_2025_draft,Koo,rw:5698,1631097,True,Koo,False,88.7,23,False,2022,,,,,,,,
+2025-26,10,2,110,Ausar Thompson,2026-2027,yes,user_screenshots_2025_draft,Jipples,rw:5932,1641709,True,Jipples,False,81.7,22,False,2023,,,,,,,,
+2025-26,10,3,111,Cam Thomas,It's Donkey Time,no,user_screenshots_2025_draft,Austin,rw:5360,1630560,False,Austin,False,83.3,23,False,2021,82,80,27.700000000000003,26,1,0.0,0.0,87
+2025-26,10,4,112,Tobias Harris,Live Laugh LeBron,no,user_screenshots_2025_draft,Oscar,rw:3211,202699,False,Oscar,False,115.2,33,False,2011,83,81,-3.200000000000003,-18,26,0.29411764705882354,21.5,86
+2025-26,10,5,113,Payton Pritchard,2026-2027,yes,user_screenshots_2025_draft,Jipples,rw:5131,1630202,True,Ashley,True,72.0,27,False,2020,,,,,,,,
+2025-26,10,6,114,Nic Claxton,Team Stable Knees v2,no,user_screenshots_2025_draft,Nick,rw:4827,1629651,False,Nick,False,103.8,26,False,2019,84,82,10.200000000000003,6,7,0.07142857142857142,10.099999999999994,85
+2025-26,10,7,115,Egor Demin,Livin' Avdija Loca,no,user_screenshots_2025_draft,Raul,rw:6559,1642856,False,Raul,False,125.1,19,True,2025,85,83,-10.099999999999994,-64,66,0.7831325301204819,31.39999999999999,84
+2025-26,10,8,116,Toumani Camara,Next Chosen One,yes,user_screenshots_2025_draft,Adam,rw:5987,1641739,True,Adam,False,111.8,25,False,2023,,,,,,,,
+2025-26,10,9,117,Dyson Daniels,Maxey hit the Markk,yes,user_screenshots_2025_draft,Samet,rw:5385,1630700,True,Samet,False,43.7,22,False,2022,,,,,,,,
+2025-26,10,10,118,Josh Hart,Number 33,yes,user_screenshots_2025_draft,Shiven,rw:4136,1628404,True,Shiven,False,77.5,30,False,2017,,,,,,,,
+2025-26,10,11,119,Isaiah Collier,Murray-Culous,yes,user_screenshots_2025_draft,San,rw:6260,1642268,True,San,False,123.7,20,False,2024,,,,,,,,
+2025-26,10,12,120,Andrew Wiggins,Set the Bar,no,user_screenshots_2025_draft,Addison,rw:3571,203952,False,Addison,False,105.2,30,False,2014,86,84,14.799999999999997,4,10,0.10975609756097561,11.5,83
+2025-26,11,1,121,Alex Sarr,Set the Bar,yes,user_screenshots_2025_draft,Addison,rw:6240,1642259,True,Addison,False,81.2,20,False,2024,,,,,,,,
+2025-26,11,2,122,Tari Eason,Murray-Culous,no,user_screenshots_2025_draft,San,rw:5704,1631106,False,San,False,112.5,24,False,2022,87,85,9.5,-7,19,0.2222222222222222,18.799999999999997,82
+2025-26,11,3,123,Keegan Murray,Number 33,no,user_screenshots_2025_draft,Shiven,rw:5699,1631099,False,Shiven,False,114.6,25,False,2022,88,86,8.400000000000006,-10,21,0.25,20.89999999999999,81
+2025-26,11,4,124,VJ Edgecombe,Maxey hit the Markk,no,user_screenshots_2025_draft,Samet,rw:6550,1642845,False,Samet,False,96.7,20,True,2025,89,87,27.299999999999997,22,2,0.012658227848101266,3.0,80
+2025-26,11,5,125,Bobby Portis Jr.,Next Chosen One,no,user_screenshots_2025_draft,Adam,rw:3705,1626171,False,Adam,False,114.9,30,False,2015,90,88,10.099999999999994,-9,20,0.24358974358974358,21.200000000000003,79
+2025-26,11,6,126,Herbert Jones,Livin' Avdija Loca,no,user_screenshots_2025_draft,Raul,rw:5414,1630529,False,Raul,False,116.8,26,False,2021,91,89,9.200000000000003,-18,27,0.33766233766233766,23.099999999999994,78
+2025-26,11,7,127,Ben Simmons,Team Stable Knees v2,yes,user_screenshots_2025_draft,Nick,rw:3849,1627732,True,Nick,False,,29,False,2016,,,,,,,,
+2025-26,11,8,128,Jared McCain,Huevos Bancheros,no,user_screenshots_2025_draft,Ashley,rw:6266,1642272,False,Ashley,False,121.9,21,False,2024,92,90,6.099999999999994,-40,45,0.5789473684210527,28.200000000000003,77
+2025-26,11,9,129,D'Angelo Russell,Live Laugh LeBron,no,user_screenshots_2025_draft,Oscar,rw:3708,1626156,False,Oscar,False,114.5,29,False,2015,93,91,14.5,-4,19,0.24,20.799999999999997,76
+2025-26,11,10,130,Davion Mitchell,It's Donkey Time,no,user_screenshots_2025_draft,Austin,rw:5354,1630558,False,Austin,False,121.8,27,False,2021,94,92,8.200000000000003,-37,43,0.5675675675675675,28.099999999999994,75
+2025-26,11,11,131,Stephon Castle,2026-2027,no,user_screenshots_2025_draft,Jipples,rw:6250,1642264,False,Jipples,False,104.1,20,False,2024,95,93,26.900000000000006,16,6,0.0684931506849315,10.399999999999991,74
+2025-26,11,12,132,Santi Aldama,Koo,no,user_screenshots_2025_draft,Koo,rw:5428,1630583,False,Koo,False,108.5,24,False,2021,96,94,23.5,10,11,0.1388888888888889,14.799999999999997,73
+2025-26,12,1,133,Ace Bailey,Koo,no,user_screenshots_2025_draft,Koo,rw:6551,1642846,False,Koo,False,116.4,19,True,2025,97,95,16.599999999999994,-10,22,0.29577464788732394,22.700000000000003,72
+2025-26,12,2,134,Yang Hansen,2026-2027,no,user_screenshots_2025_draft,Jipples,rw:6617,1642905,False,Jipples,False,,20,True,2025,98,,,,,,,
+2025-26,12,3,135,Kevin Porter Jr.,It's Donkey Time,no,user_screenshots_2025_draft,Austin,rw:4773,1629645,False,Austin,False,107.1,25,False,2019,99,96,27.900000000000006,14,9,0.11428571428571428,13.399999999999991,71
+2025-26,12,4,136,Jrue Holiday,Live Laugh LeBron,no,user_screenshots_2025_draft,Oscar,rw:3029,201950,False,Oscar,False,101.8,35,False,2009,100,97,34.2,25,3,0.028985507246376812,8.099999999999994,70
+2025-26,12,5,137,Kon Knueppel,Huevos Bancheros,no,user_screenshots_2025_draft,Ashley,rw:6540,1642851,False,Ashley,False,110.5,20,True,2025,101,98,26.5,9,12,0.16176470588235295,16.799999999999997,69
+2025-26,12,6,138,Jabari Smith Jr.,Team Stable Knees v2,no,user_screenshots_2025_draft,Nick,rw:5643,1631095,False,Nick,False,115.2,22,False,2022,102,99,22.799999999999997,0,14,0.19402985074626866,21.5,68
+2025-26,12,7,139,Yves Missi,Livin' Avdija Loca,no,user_screenshots_2025_draft,Raul,rw:6268,1642274,False,Raul,False,123.8,21,False,2024,103,100,15.200000000000003,-41,45,0.6666666666666666,30.099999999999994,67
+2025-26,12,8,140,Zaccharie Risacher,Next Chosen One,no,user_screenshots_2025_draft,Adam,rw:6249,1642258,False,Adam,False,120.6,20,False,2024,104,101,19.400000000000006,-23,32,0.47692307692307695,26.89999999999999,66
+2025-26,12,9,141,Mitchell Robinson,Maxey hit the Markk,no,user_screenshots_2025_draft,Samet,rw:4426,1629011,False,Samet,False,127.4,27,False,2018,105,102,13.599999999999994,-55,56,0.859375,33.7,65
+2025-26,12,10,142,Scotty Pippen Jr.,Number 33,no,user_screenshots_2025_draft,Shiven,rw:5685,1630590,False,Shiven,False,127.7,24,False,Undrafted,106,103,14.299999999999997,-55,56,0.873015873015873,34.0,64
+2025-26,12,11,143,Jonathan Kuminga,Murray-Culous,no,user_screenshots_2025_draft,San,rw:5287,1630228,False,San,False,117.0,22,False,2021,107,104,26.0,-5,20,0.3064516129032258,23.299999999999997,63
+2025-26,12,12,144,Malik Monk,Set the Bar,no,user_screenshots_2025_draft,Addison,rw:4117,1628370,False,Addison,False,116.8,27,False,2017,108,105,27.200000000000003,-2,19,0.29508196721311475,23.099999999999994,62
+2025-26,13,1,145,Jaylen Wells,Set the Bar,no,user_screenshots_2025_draft,Addison,rw:6305,1642377,False,Addison,False,126.0,22,False,2024,109,106,19.0,-44,48,0.7833333333333333,32.3,61
+2025-26,13,2,146,Keyonte George,Murray-Culous,no,user_screenshots_2025_draft,San,rw:5899,1641718,False,San,False,105.0,21,False,2023,110,107,41.0,28,6,0.0847457627118644,11.299999999999997,60
+2025-26,13,3,147,Ty Jerome,Number 33,no,user_screenshots_2025_draft,Shiven,rw:4774,1629660,False,Shiven,False,135.8,28,False,2019,111,108,11.199999999999989,-58,59,1.0,42.10000000000001,59
+2025-26,13,4,148,Jeremy Sochan,Maxey hit the Markk,no,user_screenshots_2025_draft,Samet,rw:5702,1631110,False,Samet,False,128.1,22,False,2022,112,109,19.900000000000006,-50,52,0.8947368421052632,34.39999999999999,58
+2025-26,13,5,149,De'Andre Hunter,Next Chosen One,no,user_screenshots_2025_draft,Adam,rw:4776,1629631,False,Adam,False,125.3,27,False,2019,113,110,23.700000000000003,-38,45,0.7857142857142857,31.599999999999994,57
+2025-26,13,6,150,Jaden McDaniels,Livin' Avdija Loca,no,user_screenshots_2025_draft,Raul,rw:5221,1630183,False,Raul,False,115.2,25,False,2020,114,111,34.8,12,13,0.21818181818181817,21.5,56
+2025-26,13,7,151,Scoot Henderson,Team Stable Knees v2,no,user_screenshots_2025_draft,Nick,rw:5377,1630703,False,Nick,False,127.2,21,False,2023,115,112,23.799999999999997,-44,49,0.8888888888888888,33.5,55
+2025-26,13,8,152,T.J. McConnell,Huevos Bancheros,no,user_screenshots_2025_draft,Ashley,rw:3760,204456,False,Ashley,False,121.9,33,False,2015,116,113,30.099999999999994,-17,31,0.5660377358490566,28.200000000000003,54
+2025-26,13,9,153,Kyshawn George,Live Laugh LeBron,no,user_screenshots_2025_draft,Oscar,rw:6269,1642273,False,Oscar,False,102.6,21,False,2024,117,114,50.400000000000006,40,4,0.057692307692307696,8.899999999999991,53
+2025-26,13,10,154,Fred VanVleet,It's Donkey Time,no,user_screenshots_2025_draft,Austin,rw:3935,1627832,False,Austin,False,,31,False,Undrafted,118,,,,,,,
+2025-26,13,11,155,Dennis Schroder,2026-2027,no,user_screenshots_2025_draft,Jipples,rw:3444,203471,False,Jipples,False,120.4,32,False,2013,119,115,34.599999999999994,-8,26,0.49019607843137253,26.700000000000003,52
+2025-26,13,12,156,Cam Whitmore,Koo,no,user_screenshots_2025_draft,Koo,rw:5934,1641715,False,Koo,False,130.1,21,False,2023,120,116,25.900000000000006,-45,47,0.92,36.39999999999999,51

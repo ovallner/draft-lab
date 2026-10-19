@@ -1,0 +1,10 @@
+{
+  "source_file": "data/projections/incoming/hashtag_basketball_2026_27_projections_2026-10-15.csv",
+  "source_date": "2026-10-15",
+  "activated": "2026-10-15",
+  "sha256": "b2a59ca7500edf108073d1a55a483893146f6af3523644bf1928f48f5f779a96",
+  "baseline_archived": "data/projections/archive/hashtag_basketball_2026_27_projections_2026-10-12.csv",
+  "html_source": "hashtag_10-15-26.html",
+  "html_sha256": "27f4b2f87feae4a3e00cd6041629707c46e319c2dfe2a7d55a3987fad27c3d83",
+  "converted_by": "scripts/import_hashtag_html.py"
+}

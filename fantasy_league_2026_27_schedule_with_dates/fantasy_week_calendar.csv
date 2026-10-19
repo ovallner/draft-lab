@@ -1,0 +1,24 @@
+season,week,start_date,end_date,days,week_type,league_phase,is_extended_week,source
+2026-27,1,2026-10-20,2026-10-25,6,opening_week,regular_season,false,Yahoo official 2026-27 important game dates
+2026-27,2,2026-10-26,2026-11-01,7,standard,regular_season,false,Yahoo official 2026-27 important game dates
+2026-27,3,2026-11-02,2026-11-08,7,standard,regular_season,false,Yahoo official 2026-27 important game dates
+2026-27,4,2026-11-09,2026-11-15,7,standard,regular_season,false,Yahoo official 2026-27 important game dates
+2026-27,5,2026-11-16,2026-11-22,7,standard,regular_season,false,Yahoo official 2026-27 important game dates
+2026-27,6,2026-11-23,2026-11-29,7,standard,regular_season,false,Yahoo official 2026-27 important game dates
+2026-27,7,2026-11-30,2026-12-13,14,nba_cup,regular_season,true,Yahoo official 2026-27 important game dates
+2026-27,8,2026-12-14,2026-12-20,7,standard,regular_season,false,Yahoo official 2026-27 important game dates
+2026-27,9,2026-12-21,2026-12-27,7,standard,regular_season,false,Yahoo official 2026-27 important game dates
+2026-27,10,2026-12-28,2027-01-03,7,standard,regular_season,false,Yahoo official 2026-27 important game dates
+2026-27,11,2027-01-04,2027-01-10,7,standard,regular_season,false,Yahoo official 2026-27 important game dates
+2026-27,12,2027-01-11,2027-01-17,7,standard,regular_season,false,Yahoo official 2026-27 important game dates
+2026-27,13,2027-01-18,2027-01-24,7,standard,regular_season,false,Yahoo official 2026-27 important game dates
+2026-27,14,2027-01-25,2027-01-31,7,standard,regular_season,false,Yahoo official 2026-27 important game dates
+2026-27,15,2027-02-01,2027-02-07,7,standard,regular_season,false,Yahoo official 2026-27 important game dates
+2026-27,16,2027-02-08,2027-02-14,7,standard,regular_season,false,Yahoo official 2026-27 important game dates
+2026-27,17,2027-02-15,2027-02-28,14,all_star_break,regular_season,true,Yahoo official 2026-27 important game dates
+2026-27,18,2027-03-01,2027-03-07,7,standard,league_playoffs,false,Yahoo official 2026-27 important game dates
+2026-27,19,2027-03-08,2027-03-14,7,standard,league_playoffs,false,Yahoo official 2026-27 important game dates
+2026-27,20,2027-03-15,2027-03-21,7,standard,league_playoffs,false,Yahoo official 2026-27 important game dates
+2026-27,21,2027-03-22,2027-03-28,7,standard,post_league_playoffs,false,Yahoo official 2026-27 important game dates
+2026-27,22,2027-03-29,2027-04-04,7,standard,post_league_playoffs,false,Yahoo official 2026-27 important game dates
+2026-27,23,2027-04-05,2027-04-11,7,standard,post_league_playoffs,false,Yahoo official 2026-27 important game dates

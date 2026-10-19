@@ -1,0 +1,64 @@
+{
+  "method": "Pooled 2024-25 + 2025-26 ADP choice sets; forward-round holdout + cross-season transfer",
+  "n_test": 134,
+  "n_pooled_sets": 226,
+  "metrics": {
+    "baseline": {
+      "log_loss": 4.008059188949697,
+      "mean_choice_rank": 16.604477611940297,
+      "top5_accuracy": 0.3283582089552239
+    },
+    "global": {
+      "log_loss": 4.00830584449473,
+      "mean_choice_rank": 16.51492537313433,
+      "top5_accuracy": 0.3283582089552239
+    },
+    "persona_pooled": {
+      "log_loss": 4.01293832702712,
+      "mean_choice_rank": 16.33582089552239,
+      "top5_accuracy": 0.31343283582089554
+    },
+    "persona_manager": {
+      "log_loss": 4.00776186788903,
+      "mean_choice_rank": 16.47761194029851,
+      "top5_accuracy": 0.3208955223880597
+    }
+  },
+  "persona_minus_baseline_log_loss": -0.0002973210606667739,
+  "round_bootstrap_95_interval": [
+    -0.038567123712345504,
+    0.033876677998750916
+  ],
+  "cross_season": {
+    "2024-25->2025-26": {
+      "n_train": 101,
+      "n_test": 106,
+      "test_pool": "full_market",
+      "baseline_log_loss": 3.73148234583768,
+      "global_log_loss": 3.755289742754664,
+      "persona_pooled_log_loss": 3.7595808409247917,
+      "persona_manager_log_loss": 3.7539016422291653
+    },
+    "2025-26->2024-25": {
+      "n_train": 106,
+      "n_test": 101,
+      "test_pool": "taken_only",
+      "baseline_log_loss": 3.0445183305823473,
+      "global_log_loss": 3.0448380895697307,
+      "persona_pooled_log_loss": 3.0521626465108405,
+      "persona_manager_log_loss": 3.0463216229020413
+    }
+  },
+  "cross_season_persona_wins": 0,
+  "cross_season_pooled_wins": 0,
+  "cross_season_pairs": 2,
+  "persona_enabled_by_default": false,
+  "decision": "baseline",
+  "limitations": [
+    "2024-25 ADP exists only for players actually taken, so its pool is truncated: late-round reach is understated by ~26 slots. Slopes are fitted per season, never pooled across the two.",
+    "2023-24 has no usable ADP (the supplied export duplicates 2024), so it informs descriptive preferences only, never the choice likelihood.",
+    "The two ADP seasons have different pool tiers, so cross-season transfer partly reflects that difference rather than pure behavioural drift.",
+    "Positions are a 2025-26 snapshot applied to all seasons; historical position eligibility is not reconstructed.",
+    "Cross-season transfer is directional evidence, not a calibrated probability."
+  ]
+}
